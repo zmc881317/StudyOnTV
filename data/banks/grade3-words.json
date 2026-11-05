@@ -1,0 +1,876 @@
+{
+ "name": "三年级简单英语单词",
+ "version": 2,
+ "items": [
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“apple” 的意思是？",
+   "a": [
+    "太阳",
+    "鸟",
+    "妈妈",
+    "苹果"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-001"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「香蕉」用英语怎么说？",
+   "a": [
+    "banana",
+    "sun",
+    "milk",
+    "ten"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-002"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「橙子」的英文单词。",
+   "answers": [
+    "orange"
+   ],
+   "difficulty": 2,
+   "tip": "橙子：orange",
+   "id": "g3w-003"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“pear” 的意思是？",
+   "a": [
+    "梨",
+    "耳朵",
+    "四",
+    "熊猫"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-004"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「葡萄」用英语怎么说？",
+   "a": [
+    "apple",
+    "rice",
+    "grape",
+    "six"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-005"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「猫」的英文单词。",
+   "answers": [
+    "cat"
+   ],
+   "difficulty": 2,
+   "tip": "猫：cat",
+   "id": "g3w-006"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“dog” 的意思是？",
+   "a": [
+    "狗",
+    "姐妹",
+    "自行车",
+    "橡皮"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-007"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「猪」用英语怎么说？",
+   "a": [
+    "blue",
+    "pen",
+    "pig",
+    "nose"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-008"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「鸭子」的英文单词。",
+   "answers": [
+    "duck"
+   ],
+   "difficulty": 2,
+   "tip": "鸭子：duck",
+   "id": "g3w-009"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“bird” 的意思是？",
+   "a": [
+    "七",
+    "鸟",
+    "面包",
+    "老虎"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "id": "g3w-010"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「鱼」用英语怎么说？",
+   "a": [
+    "water",
+    "teacher",
+    "fish",
+    "pencil"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-011"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「熊猫」的英文单词。",
+   "answers": [
+    "panda"
+   ],
+   "difficulty": 2,
+   "tip": "熊猫：panda",
+   "id": "g3w-012"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“monkey” 的意思是？",
+   "a": [
+    "鸟",
+    "梨",
+    "猴子",
+    "黄色"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-013"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「老虎」用英语怎么说？",
+   "a": [
+    "seven",
+    "bag",
+    "tiger",
+    "cat"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-014"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「兔子」的英文单词。",
+   "answers": [
+    "rabbit"
+   ],
+   "difficulty": 2,
+   "tip": "兔子：rabbit",
+   "id": "g3w-015"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“red” 的意思是？",
+   "a": [
+    "红色",
+    "脚",
+    "自行车",
+    "眼睛"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-016"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「蓝色」用英语怎么说？",
+   "a": [
+    "pig",
+    "blue",
+    "one",
+    "three"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "id": "g3w-017"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「绿色」的英文单词。",
+   "answers": [
+    "green"
+   ],
+   "difficulty": 2,
+   "tip": "绿色：green",
+   "id": "g3w-018"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“yellow” 的意思是？",
+   "a": [
+    "一",
+    "眼睛",
+    "黄色",
+    "自行车"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-019"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「黑色」用英语怎么说？",
+   "a": [
+    "foot",
+    "hand",
+    "black",
+    "teacher"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-020"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「白色」的英文单词。",
+   "answers": [
+    "white"
+   ],
+   "difficulty": 2,
+   "tip": "白色：white",
+   "id": "g3w-021"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“one” 的意思是？",
+   "a": [
+    "一",
+    "树",
+    "猫",
+    "七"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-022"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「二」用英语怎么说？",
+   "a": [
+    "foot",
+    "eraser",
+    "pencil",
+    "two"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-023"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「三」的英文单词。",
+   "answers": [
+    "three"
+   ],
+   "difficulty": 2,
+   "tip": "三：three",
+   "id": "g3w-024"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“four” 的意思是？",
+   "a": [
+    "狗",
+    "红色",
+    "公共汽车",
+    "四"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-025"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「五」用英语怎么说？",
+   "a": [
+    "five",
+    "pear",
+    "tiger",
+    "bus"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-026"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「六」的英文单词。",
+   "answers": [
+    "six"
+   ],
+   "difficulty": 2,
+   "tip": "六：six",
+   "id": "g3w-027"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“seven” 的意思是？",
+   "a": [
+    "四",
+    "十",
+    "九",
+    "七"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-028"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「八」用英语怎么说？",
+   "a": [
+    "hand",
+    "eight",
+    "teacher",
+    "one"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "id": "g3w-029"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「九」的英文单词。",
+   "answers": [
+    "nine"
+   ],
+   "difficulty": 2,
+   "tip": "九：nine",
+   "id": "g3w-030"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“ten” 的意思是？",
+   "a": [
+    "黄色",
+    "兔子",
+    "嘴巴",
+    "十"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-031"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「书」用英语怎么说？",
+   "a": [
+    "book",
+    "pig",
+    "ear",
+    "seven"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-032"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「钢笔」的英文单词。",
+   "answers": [
+    "pen"
+   ],
+   "difficulty": 2,
+   "tip": "钢笔：pen",
+   "id": "g3w-033"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“pencil” 的意思是？",
+   "a": [
+    "铅笔",
+    "六",
+    "书包",
+    "兔子"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-034"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「尺子」用英语怎么说？",
+   "a": [
+    "eye",
+    "ruler",
+    "cat",
+    "white"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "id": "g3w-035"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「书包」的英文单词。",
+   "answers": [
+    "bag"
+   ],
+   "difficulty": 2,
+   "tip": "书包：bag",
+   "id": "g3w-036"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“eraser” 的意思是？",
+   "a": [
+    "黑色",
+    "腿",
+    "梨",
+    "橡皮"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-037"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「头」用英语怎么说？",
+   "a": [
+    "brother",
+    "red",
+    "head",
+    "monkey"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-038"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「手」的英文单词。",
+   "answers": [
+    "hand"
+   ],
+   "difficulty": 2,
+   "tip": "手：hand",
+   "id": "g3w-039"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“eye” 的意思是？",
+   "a": [
+    "嘴巴",
+    "树",
+    "猫",
+    "眼睛"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-040"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「耳朵」用英语怎么说？",
+   "a": [
+    "seven",
+    "ear",
+    "white",
+    "sun"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "id": "g3w-041"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「鼻子」的英文单词。",
+   "answers": [
+    "nose"
+   ],
+   "difficulty": 2,
+   "tip": "鼻子：nose",
+   "id": "g3w-042"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“mouth” 的意思是？",
+   "a": [
+    "香蕉",
+    "手",
+    "嘴巴",
+    "树"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-043"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「腿」用英语怎么说？",
+   "a": [
+    "moon",
+    "leg",
+    "white",
+    "five"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "id": "g3w-044"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「脚」的英文单词。",
+   "answers": [
+    "foot"
+   ],
+   "difficulty": 2,
+   "tip": "脚：foot",
+   "id": "g3w-045"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“father” 的意思是？",
+   "a": [
+    "香蕉",
+    "红色",
+    "爸爸",
+    "脚"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-046"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「妈妈」用英语怎么说？",
+   "a": [
+    "mother",
+    "blue",
+    "pear",
+    "bag"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-047"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「兄弟」的英文单词。",
+   "answers": [
+    "brother"
+   ],
+   "difficulty": 2,
+   "tip": "兄弟：brother",
+   "id": "g3w-048"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“sister” 的意思是？",
+   "a": [
+    "姐妹",
+    "小汽车",
+    "鼻子",
+    "水"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-049"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「老师」用英语怎么说？",
+   "a": [
+    "two",
+    "moon",
+    "car",
+    "teacher"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-050"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「牛奶」的英文单词。",
+   "answers": [
+    "milk"
+   ],
+   "difficulty": 2,
+   "tip": "牛奶：milk",
+   "id": "g3w-051"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“water” 的意思是？",
+   "a": [
+    "自行车",
+    "黄色",
+    "姐妹",
+    "水"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-052"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「面包」用英语怎么说？",
+   "a": [
+    "tree",
+    "bike",
+    "eight",
+    "bread"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-053"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「鸡蛋」的英文单词。",
+   "answers": [
+    "egg"
+   ],
+   "difficulty": 2,
+   "tip": "鸡蛋：egg",
+   "id": "g3w-054"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“rice” 的意思是？",
+   "a": [
+    "米饭",
+    "五",
+    "面包",
+    "三"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-055"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「太阳」用英语怎么说？",
+   "a": [
+    "orange",
+    "pen",
+    "foot",
+    "sun"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-056"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「月亮」的英文单词。",
+   "answers": [
+    "moon"
+   ],
+   "difficulty": 2,
+   "tip": "月亮：moon",
+   "id": "g3w-057"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“tree” 的意思是？",
+   "a": [
+    "书",
+    "太阳",
+    "兄弟",
+    "树"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "id": "g3w-058"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「花」用英语怎么说？",
+   "a": [
+    "teacher",
+    "flower",
+    "pig",
+    "orange"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "id": "g3w-059"
+  },
+  {
+   "type": "text",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "写出「小汽车」的英文单词。",
+   "answers": [
+    "car"
+   ],
+   "difficulty": 2,
+   "tip": "小汽车：car",
+   "id": "g3w-060"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "“bus” 的意思是？",
+   "a": [
+    "鱼",
+    "小汽车",
+    "公共汽车",
+    "老虎"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "id": "g3w-061"
+  },
+  {
+   "type": "single",
+   "subject": "英语单词",
+   "level": "三年级",
+   "q": "「自行车」用英语怎么说？",
+   "a": [
+    "bike",
+    "monkey",
+    "pear",
+    "black"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "id": "g3w-062"
+  }
+ ]
+}
