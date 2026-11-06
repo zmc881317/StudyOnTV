@@ -1,0 +1,3344 @@
+{
+ "name": "三年级语数英选择题（外部题库 thl529）",
+ "version": 1,
+ "source": "https://github.com/thl529/question-bank",
+ "license": "未声明许可；原作者注明仅供学习参考，请勿商用",
+ "description": "来源：thl529/question-bank（https://github.com/thl529/question-bank），小学选择题题库，部分题目经 AI 补充生成；原仓库未声明开源许可，说明为“仅供学习参考，请勿用于商业用途”。导入时逐题人工核对，删除答案存疑的题目。",
+ "items": [
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "长方形的面积计算公式是（  ）。",
+   "a": [
+    "长 × 2 + 宽",
+    "（长 + 宽）× 2",
+    "长 × 宽"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "长方形面积 = 长 × 宽。B选项是长方形周长的计算公式。",
+   "id": "ext-p3-ms-001"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "周长是80米的正方形花坛，它的面积是（  ）平方米。",
+   "a": [
+    "320",
+    "6400",
+    "400"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "正方形周长80米，边长 = 80 ÷ 4 = 20米，面积 = 20 × 20 = 400平方米。",
+   "id": "ext-p3-ms-002"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "面积相等的两个长方形，它们的周长（  ）。",
+   "a": [
+    "一定相等",
+    "一定不相等",
+    "不一定相等"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "例如面积都是12平方厘米：长6宽2的周长是16厘米，长4宽3的周长是14厘米。面积相等周长不一定相等。",
+   "id": "ext-p3-ms-003"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个正方形的边长是6厘米，它的周长是（  ）厘米。",
+   "a": [
+    "12",
+    "24",
+    "36"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "正方形周长 = 边长 × 4 = 6 × 4 = 24厘米。注意不要和面积公式混淆。",
+   "id": "ext-p3-ms-004"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个长方形的长是12厘米，宽是8厘米，它的周长是（  ）厘米。",
+   "a": [
+    "96",
+    "40",
+    "20"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "长方形周长 = (长 + 宽) × 2 = (12 + 8) × 2 = 20 × 2 = 40厘米。",
+   "id": "ext-p3-ms-005"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一根铁丝正好围成一个边长8厘米的正方形，如果用这根铁丝围成一个长是10厘米的长方形，宽是（  ）厘米。",
+   "a": [
+    "6",
+    "8",
+    "22"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "铁丝长度即正方形周长 = 8 × 4 = 32厘米。长方形周长也是32厘米，宽 = 32 ÷ 2 - 10 = 16 - 10 = 6厘米。",
+   "id": "ext-p3-ms-006"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "356 + 244 =（  ）",
+   "a": [
+    "500",
+    "600",
+    "590"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "356 + 244 = 600。",
+   "id": "ext-p3-ms-007"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "803 - 567 =（  ）",
+   "a": [
+    "236",
+    "246",
+    "336"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "803 - 567 = 236。",
+   "id": "ext-p3-ms-008"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "验算 425 + 378 = 803，可以用（  ）来验算。",
+   "a": [
+    "425 - 378",
+    "803 - 378",
+    "803 + 378"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "加法的验算可以用和减去一个加数看是否等于另一个加数。",
+   "id": "ext-p3-ms-009"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "312 × 3 =（  ）",
+   "a": [
+    "936",
+    "636",
+    "939"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "312 × 3 = 936。",
+   "id": "ext-p3-ms-010"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "125 × 8 =（  ）",
+   "a": [
+    "800",
+    "1000",
+    "900"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "125 × 8 = 1000。",
+   "id": "ext-p3-ms-011"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个因数是205，另一个因数是4，积是（  ）。",
+   "a": [
+    "800",
+    "820",
+    "810"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "205 × 4 = 820。注意0的处理。",
+   "id": "ext-p3-ms-012"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "298 × 5 最接近（  ）。",
+   "a": [
+    "1000",
+    "1500",
+    "2000"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "298 ≈ 300，300 × 5 = 1500。",
+   "id": "ext-p3-ms-013"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "12是4的（  ）倍。",
+   "a": [
+    "2",
+    "3",
+    "8"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "12 ÷ 4 = 3，所以12是4的3倍。",
+   "id": "ext-p3-ms-014"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "红花有8朵，黄花的朵数是红花的3倍，黄花有（  ）朵。",
+   "a": [
+    "11",
+    "24",
+    "5"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "8 × 3 = 24朵。",
+   "id": "ext-p3-ms-015"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "1分米 =（  ）毫米。",
+   "a": [
+    "10",
+    "100",
+    "1000"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1分米 = 10厘米 = 100毫米。",
+   "id": "ext-p3-ms-017"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一本数学书的厚度大约是8（  ）。",
+   "a": [
+    "毫米",
+    "厘米",
+    "分米"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "数学书大约厚8毫米。8厘米太厚，8分米更不对。",
+   "id": "ext-p3-ms-018"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一头大象大约重4（  ）。",
+   "a": [
+    "千克",
+    "吨",
+    "克"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "大象非常重，用吨作单位。4千克太轻了。",
+   "id": "ext-p3-ms-020"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个正方形的边长是5厘米，它的周长是（  ）厘米。",
+   "a": [
+    "10",
+    "15",
+    "20"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "正方形周长 = 边长 × 4 = 5 × 4 = 20厘米。",
+   "id": "ext-p3-ms-021"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个长方形的长是8厘米，宽是5厘米，它的周长是（  ）厘米。",
+   "a": [
+    "13",
+    "26",
+    "40"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "长方形周长 =（长 + 宽）× 2 =（8 + 5）× 2 = 26厘米。",
+   "id": "ext-p3-ms-022"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个长方形的周长是24厘米，长是8厘米，宽是（  ）厘米。",
+   "a": [
+    "4",
+    "6",
+    "16"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "宽 = 周长 ÷ 2 - 长 = 24 ÷ 2 - 8 = 12 - 8 = 4厘米。",
+   "id": "ext-p3-ms-023"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "把一个蛋糕平均分成4份，每份是这个蛋糕的（  ）。",
+   "a": [
+    "1/2",
+    "1/3",
+    "1/4"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "平均分成4份，每份是四分之一，即1/4。",
+   "id": "ext-p3-ms-024"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "3/8 和 5/8 比较，（  ）大。",
+   "a": [
+    "3/8",
+    "5/8",
+    "一样大"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "分母相同比分子，5 > 3，所以 5/8 > 3/8。",
+   "id": "ext-p3-ms-025"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "1/4 + 2/4 =（  ）",
+   "a": [
+    "3/4",
+    "3/8",
+    "1/2"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "同分母分数相加，分母不变，分子相加：1+2=3，得3/4。",
+   "id": "ext-p3-ms-026"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一本故事书有308页，小明看了159页，还剩（  ）页没看。",
+   "a": [
+    "149",
+    "159",
+    "249"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "308 - 159 = 149页。",
+   "id": "ext-p3-ms-027"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "工厂每天生产145个零件，一周（7天）生产（  ）个。",
+   "a": [
+    "915",
+    "1015",
+    "1050"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "145 × 7 = 1015个。",
+   "id": "ext-p3-ms-028"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "0 × 125 =（  ）",
+   "a": [
+    "0",
+    "125",
+    "1"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "0乘以任何数都等于0。",
+   "id": "ext-p3-ms-029"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "与700最接近的数是（  ）。",
+   "a": [
+    "689",
+    "710",
+    "699"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "700-699=1，710-700=10，700-689=11。699离700最近。",
+   "id": "ext-p3-ms-030"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "如果我的家在小红家的西南面，那么小红家在我家的（  ）面。",
+   "a": [
+    "东南",
+    "东北",
+    "西南",
+    "西北"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "方向是相对的，西南的对面是东北。我家在小红家的西南面，那么小红家就在我家的东北面。",
+   "id": "ext-p3-mx-001"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "邮局的北面是学校，南面是儿童乐园，那么儿童乐园在学校的（  ）面。",
+   "a": [
+    "北面",
+    "南面",
+    "东南面"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "学校在邮局的北面，儿童乐园在邮局的南面，所以儿童乐园在学校的南面。",
+   "id": "ext-p3-mx-002"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "早晨太阳从东方升起，你面向太阳，你的后面是（  ）方。",
+   "a": [
+    "南",
+    "西",
+    "北"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "面向东方，后面就是西方。",
+   "id": "ext-p3-mx-003"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "852 ÷ 8 的商的特点是（  ）。",
+   "a": [
+    "中间有0",
+    "中间没有0",
+    "末尾有0"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "852 ÷ 8 = 106…4，商106的中间有0。",
+   "id": "ext-p3-mx-004"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "704 ÷ 7 的结果是（  ）。",
+   "a": [
+    "10……4",
+    "100……4",
+    "1000……4"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "704 ÷ 7 = 100…4。7 ÷ 7 = 1，0 ÷ 7 = 0，04 ÷ 7 = 0余4，商为100余4。",
+   "id": "ext-p3-mx-005"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "在除法算式 524 ÷ □ 中，要使商是两位数，□里最小应填（  ）。",
+   "a": [
+    "5",
+    "6",
+    "7"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "要使商是两位数，除数必须大于被除数的最高位数字5。所以□最小填6，524 ÷ 6 = 87…2，商是两位数。",
+   "id": "ext-p3-mx-006"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "两个数相除，余数是8，除数最小是（  ）。",
+   "a": [
+    "7",
+    "8",
+    "9"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "余数必须比除数小，余数是8，除数必须大于8，所以除数最小是9。",
+   "id": "ext-p3-mx-007"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "当 A ÷ B = 13……9 时，B最小时，A等于（  ）。",
+   "a": [
+    "117",
+    "130",
+    "139"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "余数是9，B最小为10。A = B × 13 + 9 = 10 × 13 + 9 = 139。",
+   "id": "ext-p3-mx-008"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "下列商最接近80的算式是（  ）。",
+   "a": [
+    "481 ÷ 6",
+    "550 ÷ 7",
+    "600 ÷ 8",
+    "959 ÷ 9"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "A: 481÷6≈80；B: 550÷7≈78.6；C: 600÷8=75；D: 959÷9≈106.6。A的商最接近80。",
+   "id": "ext-p3-mx-009"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "25 × 40 积的末尾有（  ）个0。",
+   "a": [
+    "3个",
+    "2个",
+    "1个"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "25 × 40 = 1000，末尾有3个0。25 × 4 = 100，再乘10，所以有3个0。",
+   "id": "ext-p3-mx-010"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "图书管理员将新书放在书架上，书架共有19格，每一格可放32至38本，一共大约可以放（  ）本书。",
+   "a": [
+    "不足200",
+    "200~400",
+    "400~600",
+    "600~800"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "最少：19 × 32 = 608；最多：19 × 38 = 722。所以在600~800本之间。",
+   "id": "ext-p3-mx-011"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "36 × 50 的简便算法是（  ）。",
+   "a": [
+    "36 × 5 × 10",
+    "36 × 5 + 10",
+    "36 + 50"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "50 = 5 × 10，所以 36 × 50 = 36 × 5 × 10 = 180 × 10 = 1800。",
+   "id": "ext-p3-mx-012"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个图形的大小就是这个图形的（  ）。",
+   "a": [
+    "面积",
+    "周长",
+    "长度"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "面积是物体表面或平面图形的大小。周长是图形一周的长度。",
+   "id": "ext-p3-mx-013"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "正方形的边长是4米，它的面积是（  ）。",
+   "a": [
+    "16米",
+    "8平方米",
+    "16平方米"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "正方形面积 = 边长 × 边长 = 4 × 4 = 16平方米。注意面积单位是平方米，不是米。",
+   "id": "ext-p3-mx-014"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个长方形的长是8米，是宽的2倍，它的面积是（  ）。",
+   "a": [
+    "16平方米",
+    "128平方米",
+    "32平方米"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "长是8米，是宽的2倍，所以宽 = 8 ÷ 2 = 4米。面积 = 8 × 4 = 32平方米。",
+   "id": "ext-p3-mx-015"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一张长方形的画纸，长9分米，宽7分米，如果长和宽都减少2分米，则面积减少（  ）平方分米。",
+   "a": [
+    "4",
+    "18",
+    "14",
+    "28"
+   ],
+   "k": 3,
+   "difficulty": 3,
+   "tip": "原面积 = 9 × 7 = 63平方分米。新面积 = 7 × 5 = 35平方分米。面积减少 = 63 - 35 = 28平方分米。",
+   "id": "ext-p3-mx-016"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个公园占地面积大约是3（  ）。",
+   "a": [
+    "平方米",
+    "平方千米",
+    "公顷",
+    "千米"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "公园面积用公顷作单位比较合适。3平方米太小，3平方千米太大，千米是长度单位。",
+   "id": "ext-p3-mx-017"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "我们学校阶梯教室的面积大约是100（  ）。",
+   "a": [
+    "平方分米",
+    "平方米",
+    "米"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "阶梯教室面积用平方米作单位比较合适。100平方分米只有1平方米，太小了。米是长度单位。",
+   "id": "ext-p3-mx-018"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小明家客厅和小芳家客厅一样大，小明家用了126块地砖铺满，小芳家用了140块地砖铺满，说明（  ）。",
+   "a": [
+    "小明家用的地砖大",
+    "小芳家用的地砖大",
+    "一样大",
+    "无法比较"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "面积一样大，用的砖块少说明每块砖面积大。126 < 140，所以小明家地砖较大。",
+   "id": "ext-p3-mx-019"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "从864里面连续减9，减（  ）次才能得到0。",
+   "a": [
+    "95",
+    "96",
+    "97"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "864 ÷ 9 = 96，所以需要减96次。",
+   "id": "ext-p3-mx-020"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "6:00—16:00 表示（  ）。",
+   "a": [
+    "上午6时到下午6时",
+    "上午6时到下午4时",
+    "上午6时到下午8时"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "16:00用24时计时法表示下午4时（16 - 12 = 4）。所以是上午6时到下午4时。",
+   "id": "ext-p3-mx-021"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "从晚上9时到第二天早上7时，经过了（  ）个小时。",
+   "a": [
+    "9小时",
+    "10小时",
+    "11小时"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "晚上9时到午夜12时是3小时，午夜12时到早上7时是7小时，共3 + 7 = 10小时。",
+   "id": "ext-p3-mx-022"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小明9点10分到影院看电影，电影已经开始了20分钟，电影开始的时间是（  ）。",
+   "a": [
+    "8点50分",
+    "9点00分",
+    "9点30分"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "电影开始时间 = 9:10 - 20分钟 = 8:50。",
+   "id": "ext-p3-mx-023"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "平年全年有（  ）天。",
+   "a": [
+    "366",
+    "365",
+    "360"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "平年2月有28天，全年365天。闰年2月有29天，全年366天。",
+   "id": "ext-p3-mx-024"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "爸爸买了一桶色拉油重5千克，每天用500克，一周后色拉油减少了（  ）。",
+   "a": [
+    "5千克",
+    "3500克",
+    "3千克"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "一周是7天，每天用500克，7 × 500 = 3500克。",
+   "id": "ext-p3-mx-025"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "0.5元 =（  ）角。",
+   "a": [
+    "5角",
+    "50角",
+    "5分"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "0.5元 = 5角。1元 = 10角，0.5元就是5角。",
+   "id": "ext-p3-mx-026"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "下面的小数中最大的是（  ）。",
+   "a": [
+    "3.6",
+    "6.3",
+    "3.9"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "先比整数部分：6 > 3，所以6.3最大。",
+   "id": "ext-p3-mx-027"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "1.2米 ○ 12分米，○里应填（  ）。",
+   "a": [
+    ">",
+    "<",
+    "="
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "1.2米 = 12分米，所以两者相等。",
+   "id": "ext-p3-mx-028"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "第一小组的学生称体重，最重的45千克，最轻的23千克，下面哪个数量有可能是这组学生的平均体重？（  ）",
+   "a": [
+    "45千克",
+    "32千克",
+    "23千克"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "平均数一定在最大值和最小值之间，即23~45之间。只有32千克在这个范围内。",
+   "id": "ext-p3-mx-029"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小明所在班级数学平均成绩是98分，小强所在班级数学平均成绩是96分，小明的数学成绩比小强的数学成绩（  ）。",
+   "a": [
+    "高",
+    "低",
+    "一样",
+    "无法比较"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "班级平均成绩不能代表个人成绩。小明所在班平均高，但小明个人不一定比小强高。",
+   "id": "ext-p3-mx-030"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "学校开设两个兴趣小组，三（1）班42人报名参加了活动，其中27人参加书画小组，24人参加棋艺小组，两个小组都参加的有（  ）人。",
+   "a": [
+    "7",
+    "8",
+    "9",
+    "10"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "根据容斥原理：两组都参加的 = 27 + 24 - 42 = 9人。",
+   "id": "ext-p3-mx-031"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小明面向北站立，向右转后他面向（  ）方。",
+   "a": [
+    "东",
+    "西",
+    "南",
+    "北"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "面向北，右边是东方。所以向右转后面向东方。记住口诀：上北下南左西右东。",
+   "id": "ext-p3-mx-032"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "在地图上，通常是上（  ）、下（  ）、左（  ）、右（  ）。",
+   "a": [
+    "北、南、西、东",
+    "南、北、东、西",
+    "东、西、南、北"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "在地图上，通常规定上北下南、左西右东。",
+   "id": "ext-p3-mx-033"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小红从家出发向东走300米到书店，再向北走200米到学校。放学后她从学校回家，应该先向（  ）走200米，再向（  ）走300米。",
+   "a": [
+    "南、西",
+    "北、东",
+    "西、南"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "去的时候先向东再向北，回来的时候方向相反，先向南走200米，再向西走300米。",
+   "id": "ext-p3-mx-034"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "0除以任何非零数都得（  ）。",
+   "a": [
+    "0",
+    "1",
+    "那个非零数本身"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "0除以任何非零数，结果都等于0。例如 0 ÷ 5 = 0，0 ÷ 9 = 0。",
+   "id": "ext-p3-mx-035"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个数除以7，商是12，余数最大是（  ）。",
+   "a": [
+    "5",
+    "6",
+    "7"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "余数必须比除数小，除数是7，所以余数最大是6。此时被除数 = 7 × 12 + 6 = 90。",
+   "id": "ext-p3-mx-036"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "246 ÷ 3 的商是（  ）位数。",
+   "a": [
+    "一",
+    "二",
+    "三"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "246 ÷ 3 = 82。被除数最高位2小于除数3，所以要看前两位24÷3=8，商是两位数。",
+   "id": "ext-p3-mx-037"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "两位数乘两位数，积最多是（  ）位数。",
+   "a": [
+    "三",
+    "四",
+    "五"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "两位数最大是99，99 × 99 = 9801，是四位数。所以两位数乘两位数积最多是四位数。",
+   "id": "ext-p3-mx-038"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "48 × 25 的简便算法是（  ）。",
+   "a": [
+    "48 × 20 + 48 × 5",
+    "48 × 20 × 5",
+    "48 + 25"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "利用乘法分配律：48 × 25 = 48 × (20 + 5) = 48 × 20 + 48 × 5 = 960 + 240 = 1200。",
+   "id": "ext-p3-mx-039"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个因数不变，另一个因数扩大3倍，积（  ）。",
+   "a": [
+    "不变",
+    "扩大3倍",
+    "扩大6倍"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "根据乘法的性质，一个因数不变，另一个因数扩大几倍，积就扩大几倍。",
+   "id": "ext-p3-mx-040"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "用两个长5厘米、宽3厘米的长方形拼成一个大长方形，拼成的大长方形的面积是（  ）平方厘米。",
+   "a": [
+    "15",
+    "30",
+    "40"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "无论怎样拼，总面积不变。两个长方形面积之和 = 5 × 3 × 2 = 30平方厘米。",
+   "id": "ext-p3-mx-043"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一个正方形的边长增加2厘米，面积就增加了20平方厘米，原来正方形的边长是（  ）厘米。",
+   "a": [
+    "3",
+    "4",
+    "5"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "设原边长为a，则 (a+2)² - a² = 20，即 a² + 4a + 4 - a² = 20，4a + 4 = 20，4a = 16，a = 4。",
+   "id": "ext-p3-mx-044"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "下面哪一年是闰年？（  ）",
+   "a": [
+    "2019年",
+    "2020年",
+    "2021年",
+    "2022年"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "判断闰年：年份能被4整除且不能被100整除，或者能被400整除。2020 ÷ 4 = 505，能被4整除且不能被100整除，所以2020年是闰年。",
+   "id": "ext-p3-mx-045"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "一年中有（  ）个大月。",
+   "a": [
+    "5个",
+    "6个",
+    "7个"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "大月（31天）有：1月、3月、5月、7月、8月、10月、12月，共7个月。",
+   "id": "ext-p3-mx-046"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小华的生日是2月29日，到2024年他过了3次生日，他出生在（  ）年。",
+   "a": [
+    "2008",
+    "2012",
+    "2016"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "2月29日只有闰年才有。2024年之前的闰年依次是2024、2020、2016、2012。第3次是2024年，第2次是2020年，第1次是2016年，出生年是2012年。",
+   "id": "ext-p3-mx-047"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "下午5时用24时计时法表示是（  ）。",
+   "a": [
+    "5时",
+    "15时",
+    "17时"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "下午的时间转换为24时计时法需要加12。下午5时 = 5 + 12 = 17时。",
+   "id": "ext-p3-mx-048"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "2月份有29天的那一年一定是（  ）。",
+   "a": [
+    "平年",
+    "闰年",
+    "无法确定"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "平年2月有28天，闰年2月有29天。2月有29天说明那一年是闰年。",
+   "id": "ext-p3-mx-049"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "把1米平均分成10份，每份是（  ）米。",
+   "a": [
+    "0.01",
+    "0.1",
+    "1"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "1米平均分成10份，每份是1÷10 = 0.1米 = 1分米。",
+   "id": "ext-p3-mx-050"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "3.5元和3.50元比较，（  ）。",
+   "a": [
+    "3.5元大",
+    "3.50元大",
+    "一样大"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "3.5 = 3.50，小数末尾加0或去掉0，小数的大小不变。3.5元和3.50元都是3元5角。",
+   "id": "ext-p3-mx-051"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "0.8 + 0.6 =（  ）。",
+   "a": [
+    "0.14",
+    "1.4",
+    "14"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "0.8 + 0.6 = 1.4。可以用角来理解：8角 + 6角 = 14角 = 1元4角 = 1.4元。",
+   "id": "ext-p3-mx-052"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "在 2、5、8 和小数点之间组成最大的一位小数是（  ）。",
+   "a": [
+    "85.2",
+    "82.5",
+    "52.8"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "要组成最大的一位小数，整数部分要尽量大。最大的两位整数部分是85，小数部分是.2，所以是85.2。",
+   "id": "ext-p3-mx-053"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小明语文考了90分，数学考了84分，英语考了78分，三科的平均分是（  ）分。",
+   "a": [
+    "82",
+    "84",
+    "86",
+    "90"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "平均分 = (90 + 84 + 78) ÷ 3 = 252 ÷ 3 = 84分。也可以用移多补少法：以84为基准，90比84多6，78比84少6，正好抵消，所以平均分就是84分。",
+   "id": "ext-p3-mx-054"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "把40个苹果分给5个小朋友，平均每人分到（  ）个。再加入3个小朋友一起分，平均每人分到（  ）个。",
+   "a": [
+    "8个、5个",
+    "8个、4个",
+    "5个、8个"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "第一次：40 ÷ 5 = 8个。加入3个小朋友后共8人：40 ÷ 8 = 5个。",
+   "id": "ext-p3-mx-055"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "小红有2件上衣和3条裤子，她一共有（  ）种不同的搭配方式。",
+   "a": [
+    "5种",
+    "6种",
+    "8种"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "每件上衣都可以和3条裤子搭配，共有 2 × 3 = 6 种搭配方式。",
+   "id": "ext-p3-mx-056"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "从苹果、香蕉、橙子三种水果中选两种，有（  ）种不同的选法。",
+   "a": [
+    "2种",
+    "3种",
+    "6种"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "苹果+香蕉、苹果+橙子、香蕉+橙子，共3种选法。这是组合问题，不考虑顺序。",
+   "id": "ext-p3-mx-057"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "用1、2、3三个数字可以组成（  ）个不同的三位数。",
+   "a": [
+    "3个",
+    "6个",
+    "9个"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "百位有3种选择，十位有2种选择，个位有1种选择，共3 × 2 × 1 = 6个。分别是：123、132、213、231、312、321。",
+   "id": "ext-p3-mx-058"
+  },
+  {
+   "type": "single",
+   "subject": "数学",
+   "level": "三年级",
+   "q": "如果 a × b = 0，那么（  ）。",
+   "a": [
+    "a 一定是 0",
+    "b 一定是 0",
+    "a 和 b 中至少有一个是 0"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "两个数相乘等于0，说明至少有一个因数是0，但不一定两个都是0。",
+   "id": "ext-p3-mx-059"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "当你早上见到老师时，应该说：",
+   "a": [
+    "Good morning!",
+    "Good afternoon!",
+    "Good night!"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "早上见面时用Good morning!打招呼。afternoon是下午，night是晚上。",
+   "id": "ext-p3-es-001"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Hello! I'm Mike. —________",
+   "a": [
+    "Hello! I'm Sarah.",
+    "Goodbye!",
+    "Thank you."
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "对方介绍自己，应该回应并也介绍自己。",
+   "id": "ext-p3-es-002"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—What's your name? —________",
+   "a": [
+    "I'm fine.",
+    "My name is John.",
+    "Nice to meet you."
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "What's your name?是询问名字，应该回答My name is...。",
+   "id": "ext-p3-es-003"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Nice to meet you! —________",
+   "a": [
+    "Thank you.",
+    "Nice to meet you, too!",
+    "I'm OK."
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "Nice to meet you!的回应是Nice to meet you, too!",
+   "id": "ext-p3-es-005"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "下午好！用英语怎么说？",
+   "a": [
+    "Good morning!",
+    "Good afternoon!",
+    "Good evening!"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "Good afternoon!是下午好的意思。morning是早上，evening是晚上。",
+   "id": "ext-p3-es-006"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "当你和朋友告别时，应该说：",
+   "a": [
+    "Hello!",
+    "Hi!",
+    "Goodbye!"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "Goodbye是再见的意思，用于告别场景。",
+   "id": "ext-p3-es-007"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "________ name is Sarah.",
+   "a": [
+    "I",
+    "My",
+    "Me"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "名词name前面需要用形容词性物主代词my（我的）。",
+   "id": "ext-p3-es-008"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—See you! —________",
+   "a": [
+    "See you!",
+    "I'm fine.",
+    "Thank you."
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "See you!是再见的意思，回应也用See you!",
+   "id": "ext-p3-es-009"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—________? —Very well, thanks.",
+   "a": [
+    "What's your name",
+    "How are you",
+    "How old are you"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "Very well, thanks.是对How are you?的回答，表示很好，谢谢。",
+   "id": "ext-p3-es-010"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—What colour is it? —It's ________.",
+   "a": [
+    "a book",
+    "red",
+    "big"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "What colour询问颜色，应该回答颜色词，red是红色。",
+   "id": "ext-p3-es-011"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I can see a ________ pencil.（绿色的铅笔）",
+   "a": [
+    "green",
+    "yellow",
+    "blue"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "绿色的英文是green。yellow是黄色，blue是蓝色。",
+   "id": "ext-p3-es-012"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "The banana is ________.",
+   "a": [
+    "red",
+    "yellow",
+    "blue"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "香蕉是黄色的，yellow是黄色。",
+   "id": "ext-p3-es-013"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Colour the apple ________.(把苹果涂成红色)",
+   "a": [
+    "red",
+    "green",
+    "white"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "红色的英文是red。",
+   "id": "ext-p3-es-014"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I like the ________ bag. It's nice!（白色的书包）",
+   "a": [
+    "black",
+    "brown",
+    "white"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "白色的英文是white。black是黑色，brown是棕色。",
+   "id": "ext-p3-es-015"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "下列哪个单词表示\"橙色\"？",
+   "a": [
+    "orange",
+    "purple",
+    "pink"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "orange既表示橙子，也表示橙色。purple是紫色，pink是粉色。",
+   "id": "ext-p3-es-016"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—What colour do you like? —I like ________.",
+   "a": [
+    "cat",
+    "blue",
+    "cake"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "询问喜欢什么颜色，应该回答颜色词。blue是蓝色。",
+   "id": "ext-p3-es-017"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "The sky(天空) is ________ and the grass(草) is ________.",
+   "a": [
+    "blue; green",
+    "green; blue",
+    "red; yellow"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "天空是蓝色的（blue），草是绿色的（green）。",
+   "id": "ext-p3-es-018"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "10 - 3 = ________",
+   "a": [
+    "six",
+    "seven",
+    "eight"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "10减3等于7，seven是7的英文。",
+   "id": "ext-p3-es-019"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I have ________ fingers(手指). (10根手指)",
+   "a": [
+    "eight",
+    "ten",
+    "twelve"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "人有10根手指，ten是10的英文。",
+   "id": "ext-p3-es-020"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Touch your ________. (摸你的鼻子)",
+   "a": [
+    "eye",
+    "nose",
+    "mouth"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "nose是鼻子。eye是眼睛，mouth是嘴巴。",
+   "id": "ext-p3-es-021"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "We can see with our ________.",
+   "a": [
+    "ears",
+    "eyes",
+    "mouth"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "我们用眼睛（eyes）来看东西。ears是耳朵，mouth是嘴巴。",
+   "id": "ext-p3-es-022"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Clap your ________. (拍拍你的手)",
+   "a": [
+    "hands",
+    "feet",
+    "arms"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "hands是手。feet是脚，arms是手臂。",
+   "id": "ext-p3-es-023"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "We hear with our ________.",
+   "a": [
+    "eyes",
+    "nose",
+    "ears"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "我们用耳朵（ears）来听。eyes是眼睛，nose是鼻子。",
+   "id": "ext-p3-es-024"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Open your ________ and say \"Ah\". (张开嘴巴)",
+   "a": [
+    "eye",
+    "ear",
+    "mouth"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "张嘴说\"啊\"，mouth是嘴巴。",
+   "id": "ext-p3-es-025"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Shake your ________. (摇摇你的身体)",
+   "a": [
+    "body",
+    "head",
+    "hand"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "body是身体。head是头，hand是手。",
+   "id": "ext-p3-es-026"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Stamp your ________. (跺跺你的脚)",
+   "a": [
+    "hands",
+    "foot",
+    "arm"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "stamp your foot是跺脚的意思。foot是脚。",
+   "id": "ext-p3-es-027"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I have two ________, one ________ and one ________.",
+   "a": [
+    "eyes; nose; mouth",
+    "eye; noses; mouths",
+    "ear; nose; eyes"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "两只眼睛eyes（复数），一个鼻子nose，一张嘴mouth。",
+   "id": "ext-p3-es-028"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I have a ________. (铅笔)",
+   "a": [
+    "pen",
+    "pencil",
+    "ruler"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "pencil是铅笔。pen是钢笔，ruler是尺子。",
+   "id": "ext-p3-es-029"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Show me your ________. (给我看看你的书)",
+   "a": [
+    "bag",
+    "book",
+    "eraser"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "book是书。bag是书包，eraser是橡皮。",
+   "id": "ext-p3-es-030"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Open your ________. (打开你的铅笔盒)",
+   "a": [
+    "pencil box",
+    "book",
+    "bag"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "pencil box是铅笔盒。book是书，bag是书包。",
+   "id": "ext-p3-es-031"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I use a ________ to erase. (用橡皮擦除)",
+   "a": [
+    "ruler",
+    "crayon",
+    "eraser"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "eraser是橡皮，用来擦除。ruler是尺子，crayon是蜡笔。",
+   "id": "ext-p3-es-032"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Where is my ruler? —It's ________ your bag.",
+   "a": [
+    "in",
+    "on",
+    "at"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "in your bag意思是在你的书包里面。",
+   "id": "ext-p3-es-034"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I draw with a ________. (我用蜡笔画画)",
+   "a": [
+    "eraser",
+    "ruler",
+    "crayon"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "crayon是蜡笔，用来画画。eraser是橡皮，ruler是尺子。",
+   "id": "ext-p3-es-035"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Carry your ________. (背上你的书包)",
+   "a": [
+    "book",
+    "bag",
+    "pencil"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "carry your bag意思是背上你的书包。bag是书包。",
+   "id": "ext-p3-es-036"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "This is ________ elephant.",
+   "a": [
+    "a",
+    "an",
+    "the"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "elephant以元音字母e开头，前面用an。",
+   "id": "ext-p3-es-037"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "3 + 2 = ________",
+   "a": [
+    "four",
+    "five",
+    "six"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "3加2等于5，five是5的英文。",
+   "id": "ext-p3-es-038"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—How old are you? —I'm ________.",
+   "a": [
+    "fine",
+    "nine",
+    "a boy"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "How old are you?是询问年龄，应该用数字回答。nine是9。",
+   "id": "ext-p3-es-039"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "下列哪个是数字\"8\"的英文？",
+   "a": [
+    "six",
+    "seven",
+    "eight"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "eight是8的英文。six是6，seven是7。",
+   "id": "ext-p3-es-040"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—How many pencils do you have? —I have ________.",
+   "a": [
+    "red",
+    "twelve",
+    "big"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "How many询问数量，应该用数字回答。twelve是12。",
+   "id": "ext-p3-es-041"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "six + ________ = eleven",
+   "a": [
+    "four",
+    "five",
+    "six"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "6加5等于11，five是5的英文，eleven是11。",
+   "id": "ext-p3-es-042"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—What's this? —________ a duck.",
+   "a": [
+    "It's",
+    "This",
+    "That"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "回答What's this?用It's...（它是……）。",
+   "id": "ext-p3-es-043"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—________ is that? —That is a bird.",
+   "a": [
+    "Who",
+    "What",
+    "How"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "询问那是什么用What is that?",
+   "id": "ext-p3-es-044"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "下列哪个数字最大？",
+   "a": [
+    "fifteen",
+    "thirteen",
+    "twenty"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "fifteen是15，thirteen是13，twenty是20。20最大。",
+   "id": "ext-p3-ex-001"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "She is my ________. (妈妈)",
+   "a": [
+    "father",
+    "mother",
+    "brother"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "mother是妈妈。father是爸爸，brother是哥哥/弟弟。",
+   "id": "ext-p3-ex-002"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "He is my ________. (爸爸)",
+   "a": [
+    "mother",
+    "sister",
+    "father"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "father是爸爸。mother是妈妈，sister是姐姐/妹妹。",
+   "id": "ext-p3-ex-003"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "My father's mother is my ________.",
+   "a": [
+    "grandmother",
+    "grandfather",
+    "mother"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "爸爸的妈妈是奶奶/外婆，即grandmother。",
+   "id": "ext-p3-ex-004"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "This is my ________. He is tall. (哥哥)",
+   "a": [
+    "sister",
+    "brother",
+    "mother"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "He说明是男性，brother是哥哥/弟弟。",
+   "id": "ext-p3-ex-005"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Who's that man? —________ is my father.",
+   "a": [
+    "She",
+    "He",
+    "It"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "father是爸爸，男性，用He（他）。",
+   "id": "ext-p3-ex-006"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Who's that woman? —She is my ________. (姐姐)",
+   "a": [
+    "brother",
+    "father",
+    "sister"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "She是她，woman是女性，sister是姐姐/妹妹。",
+   "id": "ext-p3-ex-007"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "My mother's father is my ________.",
+   "a": [
+    "grandmother",
+    "grandfather",
+    "father"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "妈妈的爸爸是外公/爷爷，即grandfather。",
+   "id": "ext-p3-ex-008"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Is she your mother? —________",
+   "a": [
+    "Yes, he is.",
+    "No, she is.",
+    "Yes, she is."
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "问句中用she，回答也用she。肯定回答是Yes, she is.",
+   "id": "ext-p3-ex-009"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I like ________. (面包)",
+   "a": [
+    "bread",
+    "milk",
+    "juice"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "bread是面包。milk是牛奶，juice是果汁。",
+   "id": "ext-p3-ex-010"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Can I have some ________? (水) —Sure. Here you are.",
+   "a": [
+    "cake",
+    "water",
+    "egg"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "water是水。cake是蛋糕，egg是鸡蛋。",
+   "id": "ext-p3-ex-011"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I'd like some ________. (鸡蛋)",
+   "a": [
+    "eggs",
+    "fish",
+    "rice"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "eggs是鸡蛋。fish是鱼，rice是米饭。",
+   "id": "ext-p3-ex-012"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Have some ________.（喝点牛奶） —Thank you.",
+   "a": [
+    "cake",
+    "milk",
+    "bread"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "milk是牛奶。cake是蛋糕，bread是面包。",
+   "id": "ext-p3-ex-013"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I like ________.（我喜欢苹果。）",
+   "a": [
+    "apples",
+    "pears",
+    "bananas"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "apples是苹果。pears是梨，bananas是香蕉。",
+   "id": "ext-p3-ex-014"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Do you like oranges? —________",
+   "a": [
+    "Yes, I do.",
+    "Yes, I am.",
+    "Yes, it is."
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "Do you like...?的肯定回答是Yes, I do.",
+   "id": "ext-p3-ex-015"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—I'm hungry(饿). —Have some ________.",
+   "a": [
+    "water",
+    "juice",
+    "cake"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "饿了应该吃东西，cake是蛋糕（食物）。water是水，juice是果汁，都是喝的。",
+   "id": "ext-p3-ex-017"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Look at the ________. It's big. (大象)",
+   "a": [
+    "cat",
+    "dog",
+    "elephant"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "elephant是大象，体型很大(big)。cat是猫，dog是狗。",
+   "id": "ext-p3-ex-018"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "It's a ________. It can swim. (鱼)",
+   "a": [
+    "bird",
+    "fish",
+    "pig"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "fish是鱼，鱼会游泳(swim)。bird是鸟，pig是猪。",
+   "id": "ext-p3-ex-019"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I have a ________. It says \"Woof\". (狗)",
+   "a": [
+    "cat",
+    "duck",
+    "dog"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "Woof是狗叫声，dog是狗。",
+   "id": "ext-p3-ex-020"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "It's a ________. It's black and white. (熊猫)",
+   "a": [
+    "panda",
+    "bear",
+    "monkey"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "熊猫panda是黑白相间的。bear是熊，monkey是猴子。",
+   "id": "ext-p3-ex-021"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "The ________ is very long. (蛇很长)",
+   "a": [
+    "pig",
+    "snake",
+    "bird"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "snake是蛇，蛇的身体很长(long)。",
+   "id": "ext-p3-ex-023"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—What's this? —It's a ________. (猴子)",
+   "a": [
+    "tiger",
+    "monkey",
+    "mouse"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "monkey是猴子。tiger是老虎，mouse是老鼠。",
+   "id": "ext-p3-ex-024"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "It has a long nose and big ears. It's an ________.",
+   "a": [
+    "elephant",
+    "ant",
+    "egg"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "长鼻子和大耳朵是大象elephant的特征。注意用an而不是a，因为elephant以元音开头。",
+   "id": "ext-p3-ex-025"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—How many cats can you see? —I can see ________.",
+   "a": [
+    "a cat",
+    "cat",
+    "four"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "How many询问数量，应该回答具体数字。four是4。",
+   "id": "ext-p3-ex-026"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—________ that man? —He's my father.",
+   "a": [
+    "Who's",
+    "What's",
+    "Where's"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "回答He's my father（他是我爸爸），问句应该是询问人物，用Who's（谁是）。",
+   "id": "ext-p3-ex-027"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Where is the cat? —It's ________ the box.",
+   "a": [
+    "in",
+    "on",
+    "under"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "in the box意思是在盒子里面。on是在上面，under是在下面。需要根据具体情境选择，此处是在盒子里。",
+   "id": "ext-p3-ex-028"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Do you like pears? —________, I don't. I like watermelons.",
+   "a": [
+    "Yes",
+    "No",
+    "OK"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "后面说I don't和I like watermelons，说明不喜欢梨，所以是No。",
+   "id": "ext-p3-ex-029"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "The book is ________ the desk. (在桌子上面)",
+   "a": [
+    "in",
+    "on",
+    "under"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "on the desk意思是在桌子上面。",
+   "id": "ext-p3-ex-030"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "The ball is ________ the chair. (在椅子下面)",
+   "a": [
+    "in",
+    "on",
+    "under"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "under the chair意思是在椅子下面。",
+   "id": "ext-p3-ex-031"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "It ________ a long tail. (它有一条长尾巴)",
+   "a": [
+    "have",
+    "has",
+    "is"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "第三人称单数it后面用has表示\"有\"。",
+   "id": "ext-p3-ex-032"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I ________ two eyes. (我有两只眼睛)",
+   "a": [
+    "has",
+    "have",
+    "am"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "第一人称I后面用have表示\"有\"。",
+   "id": "ext-p3-ex-033"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Is it a cat? —No, ________.",
+   "a": [
+    "it is",
+    "it isn't",
+    "I am not"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "否定回答用No, it isn't。",
+   "id": "ext-p3-ex-034"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Here you are. —________.",
+   "a": [
+    "OK",
+    "Here you are",
+    "Thank you"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "别人给你东西说Here you are.时，应该说Thank you.表示感谢。",
+   "id": "ext-p3-ex-036"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列词语中没有错别字的一项是（  ）",
+   "a": [
+    "仿佛 价值 光采夺目",
+    "创造 距离 迫不急待",
+    "朴素 继续 翩翩起舞",
+    "秘密 辩论 争先恐候"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "A项\"光采夺目\"应为\"光彩夺目\"；B项\"迫不急待\"应为\"迫不及待\"；D项\"争先恐候\"应为\"争先恐后\"。",
+   "id": "ext-p3-cs-001"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"鸦雀无声\"这个成语用来形容（  ）",
+   "a": [
+    "没有乌鸦和麻雀",
+    "非常安静，没有一点声音",
+    "鸟儿都不叫了"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"鸦雀无声\"形容非常安静，连乌鸦和麻雀的叫声都没有。",
+   "id": "ext-p3-cs-002"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"荷叶挨挨挤挤的，像一个个碧绿的大圆盘。\"这句话运用了什么修辞手法？（  ）",
+   "a": [
+    "拟人",
+    "比喻",
+    "夸张",
+    "排比"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "把\"荷叶\"比作\"碧绿的大圆盘\"，使用了比喻的修辞手法。",
+   "id": "ext-p3-cs-003"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子中运用了拟人手法的是（  ）",
+   "a": [
+    "弯弯的月亮像小船。",
+    "小鸟在枝头欢快地唱歌。",
+    "教室里安静得连一根针掉在地上都听得见。",
+    "飞流直下三千尺，疑是银河落九天。"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"小鸟唱歌\"把小鸟当作人来写，赋予人的动作，是拟人。A是比喻，C是夸张，D也是夸张。",
+   "id": "ext-p3-cs-004"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列关于传统节日与习俗对应正确的一项是（  ）",
+   "a": [
+    "中秋节——吃粽子",
+    "端午节——赏月",
+    "重阳节——登高",
+    "春节——扫墓"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "中秋节赏月吃月饼，端午节吃粽子赛龙舟，重阳节登高望远，春节贴春联放鞭炮。",
+   "id": "ext-p3-cs-005"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "课文《花钟》告诉我们，不同的花开放的时间不同，这是因为（  ）",
+   "a": [
+    "花的颜色不同",
+    "与温度、湿度、光照有关",
+    "花的大小不同",
+    "种花的人浇水时间不同"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "《花钟》一课告诉我们，不同的花开放时间与温度、湿度、光照以及昆虫活动的时间有密切关系。",
+   "id": "ext-p3-cs-006"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "《陶罐和铁罐》中铁罐总是奚落陶罐，故事告诉我们的道理是（  ）",
+   "a": [
+    "铁罐比陶罐有用",
+    "每个人都有长处和短处，要看到别人的长处，正视自己的短处",
+    "陶罐比铁罐结实"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "铁罐虽然坚硬但最终被氧化腐蚀，陶罐虽然易碎但保存了下来。故事告诉我们要正确看待自己和他人的优缺点。",
+   "id": "ext-p3-cs-007"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下面句子中关联词使用正确的一项是（  ）",
+   "a": [
+    "因为今天下雨，但是我没带伞。",
+    "虽然他年纪小，但是很懂事。",
+    "如果努力学习，而且能取得好成绩。"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"虽然……但是……\"是转折关系，使用正确。A应用\"因为……所以……\"；C应用\"如果……就……\"。",
+   "id": "ext-p3-cs-010"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列作品与作者对应正确的一项是（  ）",
+   "a": [
+    "《望天门山》——杜甫",
+    "《饮湖上初晴后雨》——苏轼",
+    "《望洞庭》——李白",
+    "《绝句》——白居易"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "《望天门山》是李白所写；《饮湖上初晴后雨》是苏轼所写；《望洞庭》是刘禹锡所写；《绝句》是杜甫所写。",
+   "id": "ext-p3-cs-011"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列词语书写全部正确的一项是（  ）",
+   "a": [
+    "准确 湿润 挡住 眼睛",
+    "准确 湿闰 档住 眼晴",
+    "淮确 湿润 挡住 眼晴",
+    "准确 湿闰 挡住 眼睛"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "B项\"湿闰\"应为\"湿润\"，\"档住\"应为\"挡住\"，\"眼晴\"应为\"眼睛\"；C项\"淮确\"应为\"准确\"；D项\"湿闰\"应为\"湿润\"。",
+   "id": "ext-p3-cs-012"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列各组词语中，字形完全正确的一项是（  ）",
+   "a": [
+    "映照 轻巧 一本正经",
+    "要求 密蜂 五彩缤纷",
+    "摇头 知到 提心吊胆",
+    "辫子 咳嗽 邯郸学部"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "B项\"密蜂\"应为\"蜜蜂\"；C项\"知到\"应为\"知道\"；D项\"邯郸学部\"应为\"邯郸学步\"。A项全部正确。",
+   "id": "ext-p3-cs-013"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"（  ）明天下雨，我们（  ）不去春游了。\"括号中应填入的关联词是（  ）",
+   "a": [
+    "因为……所以……",
+    "如果……就……",
+    "虽然……但是……",
+    "不但……而且……"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "这是一个假设关系的句子：假设明天下雨，就不去春游。应填\"如果……就……\"。",
+   "id": "ext-p3-cs-014"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"他（  ）学习成绩好，（  ）体育成绩也很好。\"括号中应填入的关联词是（  ）",
+   "a": [
+    "虽然……但是……",
+    "因为……所以……",
+    "不但……而且……",
+    "如果……就……"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "句子表示递进关系，不仅学习成绩好，体育也好，应该用\"不但……而且……\"。",
+   "id": "ext-p3-cs-015"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"两岸青山相对出，孤帆一片日边来\"出自哪首诗？（  ）",
+   "a": [
+    "《望洞庭》",
+    "《望天门山》",
+    "《饮湖上初晴后雨》",
+    "《早发白帝城》"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "这句诗出自唐代李白的《望天门山》，描写天门山的雄伟壮观景色。",
+   "id": "ext-p3-cs-016"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"欲把西湖比西子，淡妆浓抹总相宜\"中\"西子\"是指（  ）",
+   "a": [
+    "西方的姑娘",
+    "古代美女西施",
+    "西湖边的女子",
+    "作者的朋友"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"西子\"即西施，是春秋时期越国的美女。苏轼把西湖比作西施，说明西湖无论晴天雨天都很美。",
+   "id": "ext-p3-cs-017"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"湖光秋月两相和，潭面无风镜未磨\"中\"镜未磨\"是把（  ）比作没有磨过的镜子。",
+   "a": [
+    "秋月",
+    "洞庭湖面",
+    "天空",
+    "远处的山"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "诗句把平静的洞庭湖面比作没有磨过的铜镜，形容湖面朦胧、平静的样子。出自刘禹锡《望洞庭》。",
+   "id": "ext-p3-cs-018"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"泥融飞燕子\"中的\"泥融\"是指（  ）",
+   "a": [
+    "泥土很硬",
+    "泥土湿润松软",
+    "泥泞不堪"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "春天阳光和暖，冰冻的泥土融化变得湿润松软，燕子飞来衔泥筑巢。",
+   "id": "ext-p3-cs-019"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "诗句\"门泊东吴万里船\"中的\"万里船\"意思是（  ）",
+   "a": [
+    "一万里长的船",
+    "能航行一万里的船",
+    "指从非常遥远的地方来的船"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "\"万里\"是虚指，形容距离非常远，\"万里船\"指从遥远的东吴开来的船只。",
+   "id": "ext-p3-cs-020"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "对下列诗句理解错误的一项是（  ）",
+   "a": [
+    "\"迟日江山丽\"中的\"丽\"字表现了春日阳光普照、山清水秀的美丽景色",
+    "由\"春江水暖鸭先知\"一句可知，作者描写的是暮春时节的景物",
+    "\"绿阴不减来时路，添得黄鹂四五声\"表明诗人沿着来时路返回，还听到了黄鹂的叫声",
+    "\"梅子黄时日日晴\"点明了游览三衢山的时间是梅子成熟季节，天气晴朗"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"春江水暖鸭先知\"描写的是早春时节，鸭子最先感受到春天江水变暖，不是暮春。",
+   "id": "ext-p3-cs-021"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"小草偷偷地从土里钻出来\"描绘了怎样的画面？下列诗句中，与其画面最接近的一项是（  ）",
+   "a": [
+    "春风花草香",
+    "惟有青青草色齐",
+    "草色遥看近却无",
+    "风吹草低见牛羊"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "\"小草偷偷地从土里钻出来\"描写的是早春小草刚刚萌芽的景象，\"草色遥看近却无\"同样写早春草色若有若无的景象。",
+   "id": "ext-p3-cs-022"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"陶醉\"的意思是（  ）",
+   "a": [
+    "喝醉了酒",
+    "沉浸在某种境界里，很满足、很享受",
+    "头很晕"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "\"陶醉\"指沉浸在某种境界或思想活动中，非常满足和享受。",
+   "id": "ext-p3-cs-025"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列词语搭配完全正确的一项是（  ）",
+   "a": [
+    "改进方法——改善错误",
+    "改正错误——改善生活",
+    "改善缺点——改正方法"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"改正\"搭配\"错误、缺点\"；\"改善\"搭配\"生活、条件\"；\"改进\"搭配\"方法、技术\"。B项搭配完全正确。",
+   "id": "ext-p3-cs-026"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子中标点符号使用正确的一项是（  ）",
+   "a": [
+    "\"你知道吗\"？小明问。",
+    "\"你知道吗？\"小明问。",
+    "\"你知道吗？\"，小明问。"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "引用别人的话，问号应放在引号里面。引号后面不需要再加逗号。",
+   "id": "ext-p3-cs-027"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子表达意思与其他三项不同的是（  ）",
+   "a": [
+    "这难道不是你的书吗？",
+    "这不是你的书。",
+    "这是你的书。",
+    "这怎么不是你的书呢？"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "A、C、D三句都表达\"这是你的书\"的意思（A和D是反问句），只有B表达\"这不是你的书\"。",
+   "id": "ext-p3-cs-028"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "把\"小明完成了作业\"改成\"被\"字句，正确的是（  ）",
+   "a": [
+    "小明被作业完成了。",
+    "作业被小明完成了。",
+    "完成了被小明作业。"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"被\"字句的结构是：接受者 + 被 + 执行者 + 动作。作业是被完成的对象，小明是执行者。",
+   "id": "ext-p3-cs-029"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "《守株待兔》这个寓言故事告诉我们（  ）",
+   "a": [
+    "只要耐心等待，就一定会成功",
+    "不能存有侥幸心理，不能指望不劳而获",
+    "守在树旁可以等到更多兔子"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "《守株待兔》讽刺了那些不愿劳动、指望靠运气过日子的人，告诉我们不能心存侥幸。",
+   "id": "ext-p3-cs-030"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"不入虎穴，焉得虎子\"中\"焉\"的意思是（  ）",
+   "a": [
+    "就",
+    "怎么",
+    "于是"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "\"焉\"在这里是疑问副词，意思是\"怎么\"。整句意思是：不进老虎洞，怎么能得到小老虎呢？",
+   "id": "ext-p3-cs-031"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "《燕子》一文中\"一身乌黑光亮的羽毛，一对俊俏轻快的翅膀，加上剪刀似的尾巴\"，作者抓住了燕子的（  ）来写。",
+   "a": [
+    "动作",
+    "叫声",
+    "外形特点"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "作者抓住燕子的羽毛、翅膀、尾巴等外形特征来描写，是对燕子外形的描写。",
+   "id": "ext-p3-cs-032"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列词语中，\"伞\"字不表示实际雨伞意思的是（  ）",
+   "a": [
+    "雨伞",
+    "降落伞",
+    "保护伞",
+    "太阳伞"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "\"保护伞\"是比喻义，指保护、庇护某人的力量或势力，不是实际的伞。",
+   "id": "ext-p3-cs-033"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子中，与\"蜜蜂在花丛中飞来飞去\"意思相同但表达更生动的是（  ）",
+   "a": [
+    "蜜蜂在花丛中飞。",
+    "蜜蜂在花丛中翩翩起舞。",
+    "蜜蜂在花丛中很忙。"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "\"翩翩起舞\"运用了拟人手法，把蜜蜂飞翔描写得更加生动形象。",
+   "id": "ext-p3-cs-034"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"异口同声\"中\"异\"的意思是（  ）",
+   "a": [
+    "奇异",
+    "不同的",
+    "特别的"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "\"异口同声\"指不同的嘴说出相同的话，形容大家说的一样。\"异\"是\"不同的\"意思。",
+   "id": "ext-p3-cs-035"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列多音字读音正确的一项是（  ）",
+   "a": [
+    "乐(lè)曲 朝(cháo)霞",
+    "乐(yuè)曲 朝(zhāo)霞",
+    "乐(yuè)曲 朝(cháo)霞",
+    "乐(lè)曲 朝(zhāo)霞"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "\"乐曲\"中\"乐\"与音乐有关，读yuè；\"朝霞\"中\"朝\"表示早晨，读zhāo。",
+   "id": "ext-p3-cs-036"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"绿阴不减来时路\"中的\"不减\"是什么意思？（  ）",
+   "a": [
+    "并没有少多少，差不多",
+    "少不了",
+    "不少"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "\"不减\"指并没有减少，说明回来时路上的绿荫和去时的一样浓密。出自曾几《三衢道中》。",
+   "id": "ext-p3-cx-001"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"蒲公英的花就像我们的手掌，可以张开、合上。\"这句话运用了（  ）的修辞手法。",
+   "a": [
+    "排比",
+    "拟人",
+    "比喻"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "把蒲公英的花比作\"手掌\"，是比喻手法。",
+   "id": "ext-p3-cx-002"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子中省略号的作用是什么？ \"动物园里有大象、老虎、猴子、长颈鹿……\"（  ）",
+   "a": [
+    "表示话没有说完",
+    "表示列举的省略",
+    "表示说话时的停顿",
+    "表示声音的延长"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "句中列举了大象、老虎等多种动物，省略号表示还有其他动物没有一一列出，是列举的省略。",
+   "id": "ext-p3-cx-003"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子中破折号的作用是（  ） \"这是我的好朋友——小明。\"",
+   "a": [
+    "表示转折",
+    "表示解释说明",
+    "表示声音延长",
+    "表示递进"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "破折号后面的\"小明\"是对\"好朋友\"的解释说明，指出好朋友是谁。",
+   "id": "ext-p3-cx-004"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"独在异乡为异客，每逢佳节倍思亲\"中的\"佳节\"是指（  ）",
+   "a": [
+    "中秋节",
+    "春节",
+    "重阳节",
+    "端午节"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "这首诗是王维的《九月九日忆山东兄弟》，九月九日是重阳节，所以\"佳节\"指重阳节。",
+   "id": "ext-p3-cx-005"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "《蜜蜂》一文中，法布尔做实验是为了验证（  ）",
+   "a": [
+    "蜜蜂会不会采蜜",
+    "蜜蜂是否有辨认方向的能力",
+    "蜜蜂飞得快不快",
+    "蜜蜂喜欢什么颜色的花"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "课文《蜜蜂》中，法布尔做实验的目的是验证蜜蜂是否有辨认方向的能力。",
+   "id": "ext-p3-cx-006"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "《大青树下的小学》一文中，描写了不同民族的孩子在同一所学校上学，主要表达了（  ）",
+   "a": [
+    "大青树很高大",
+    "各民族团结友爱、和睦相处的美好画面",
+    "学校的环境很优美",
+    "孩子们不喜欢上学"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "课文通过描写不同民族的小学生在同一所学校里一起学习、一起玩耍的情景，表达了各民族团结友爱的主题。",
+   "id": "ext-p3-cx-007"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "《去年的树》中，鸟儿对着灯火唱歌，是因为（  ）",
+   "a": [
+    "鸟儿喜欢灯火",
+    "灯火是用她的好朋友树做成的火柴点燃的，她在信守承诺",
+    "鸟儿迷路了",
+    "灯火非常好看"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "鸟儿答应过树要回来唱歌，树被做成了火柴、点燃了灯火。鸟儿对着灯火唱歌是在兑现承诺，体现了友情和信守诺言的精神。",
+   "id": "ext-p3-cx-008"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "写一段话介绍自己的文具盒，应该按照什么顺序来写？（  ）",
+   "a": [
+    "先写大小，再写颜色、形状，最后写里面装了什么",
+    "只写颜色就可以了",
+    "先写用途，其他不用写",
+    "想到什么就写什么，不需要顺序"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "介绍一个物品，应该有条理地写：先写整体的样子（大小、颜色、形状），再写局部细节（里面装了什么、有什么特点）。",
+   "id": "ext-p3-cx-009"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子中，属于\"动作描写\"的是（  ）",
+   "a": [
+    "她长着一双水汪汪的大眼睛。",
+    "他飞快地跑过去，一把抓住了风筝的线。",
+    "今天的天气真好啊！",
+    "教室里摆着整齐的桌椅。"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"跑\"\"抓住\"都是动作，描写了人物的具体行为，属于动作描写。A是外貌描写，C是感叹句，D是环境描写。",
+   "id": "ext-p3-cx-010"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列句子中没有语病的一项是（  ）",
+   "a": [
+    "我们要养成讲文明懂礼貌。",
+    "经过努力，他的成绩有了明显的提高。",
+    "公园里开满了五颜六色的红花。",
+    "我们全校师生和班主任参加了运动会。"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "A项缺少宾语中心语，应为\"养成……的好习惯\"；C项\"五颜六色\"与\"红花\"矛盾；D项\"全校师生\"包含了\"班主任\"，语意重复。B项表达正确。",
+   "id": "ext-p3-cx-011"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"栩栩如生\"是用来形容（  ）",
+   "a": [
+    "动作非常快",
+    "画作、雕塑等艺术形象十分逼真，像活的一样",
+    "生活非常幸福",
+    "人的性格很活泼"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "\"栩栩如生\"形容画作、雕塑、文学作品中的艺术形象非常逼真，好像活的一样。",
+   "id": "ext-p3-cx-013"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列成语使用正确的一项是（  ）",
+   "a": [
+    "他做事总是拖拖拉拉，真是争分夺秒。",
+    "公园里的花开得五颜六色，真是五彩缤纷。",
+    "这道题太简单了，我想了很久才做出来，真是小菜一碟。",
+    "弟弟今天很高兴，一脸愁眉苦脸的样子。"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "A项\"争分夺秒\"形容抓紧时间，与\"拖拖拉拉\"矛盾；C项\"小菜一碟\"形容很容易，与\"想了很久\"矛盾；D项\"愁眉苦脸\"与\"高兴\"矛盾。B项使用正确。",
+   "id": "ext-p3-cx-014"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"邯郸学步\"这个成语比喻（  ）",
+   "a": [
+    "学习走路很困难",
+    "模仿别人不成，反而丧失了自己原有的本领",
+    "邯郸的人走路很好看"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"邯郸学步\"出自《庄子》，讲的是有人到邯郸学走路，没学会反而忘了自己原来怎么走路。比喻模仿别人不到家，反而把自己原有的本领丢掉了。",
+   "id": "ext-p3-cx-015"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列关联词填写正确的一项是（  ） \"（  ）风吹雨打，小树苗（  ）顽强地生长着。\"",
+   "a": [
+    "不管……都……",
+    "只要……就……",
+    "与其……不如……",
+    "既然……就……"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "句子表示条件关系，无论风吹雨打都不会影响小树苗的生长，应填\"不管……都……\"。",
+   "id": "ext-p3-cx-016"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "把\"妈妈打扫了房间\"改成\"把\"字句，正确的是（  ）",
+   "a": [
+    "妈妈把打扫了房间。",
+    "妈妈把房间打扫了。",
+    "房间把妈妈打扫了。"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "\"把\"字句的结构是：执行者 + 把 + 对象 + 动作。妈妈是执行者，房间是对象。",
+   "id": "ext-p3-cx-018"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"难道我们不应该保护环境吗？\"改为陈述句，正确的是（  ）",
+   "a": [
+    "我们不应该保护环境。",
+    "我们应该保护环境。",
+    "难道我们应该保护环境。",
+    "我们应该不保护环境。"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "反问句改陈述句：去掉\"难道\"和问号，把\"不应该\"变为\"应该\"，原句表达肯定意思。",
+   "id": "ext-p3-cx-019"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"桂林的水真静啊，静得让你感觉不到它在流动；桂林的水真清啊，清得可以看见江底的沙石。\"这句话运用了（  ）修辞手法。",
+   "a": [
+    "比喻",
+    "拟人",
+    "排比",
+    "夸张"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "句中用\"真静啊……真清啊……\"等相同结构的句式连续描写，构成排比。",
+   "id": "ext-p3-cx-021"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"春天来了，小草从地下探出头来。\"这句话运用了什么修辞手法？（  ）",
+   "a": [
+    "比喻",
+    "夸张",
+    "拟人",
+    "设问"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "\"探出头来\"是人的动作，把小草当作人来写，赋予小草人的动作，是拟人修辞手法。",
+   "id": "ext-p3-cx-022"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"是谁把春天带来了？是那可爱的小燕子。\"这句话运用了（  ）修辞手法。",
+   "a": [
+    "比喻",
+    "拟人",
+    "设问",
+    "反问"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "先提出问题\"是谁把春天带来了\"，再自己回答\"是那可爱的小燕子\"，这是设问（自问自答）的修辞手法。",
+   "id": "ext-p3-cx-023"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列词语中，全部是表示颜色的词语的一组是（  ）",
+   "a": [
+    "碧绿 金黄 雪白 火红",
+    "碧绿 金黄 漂亮 火红",
+    "碧绿 高大 雪白 火红",
+    "认真 金黄 雪白 火红"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "B项\"漂亮\"不是颜色词；C项\"高大\"不是颜色词；D项\"认真\"不是颜色词。只有A项全部是颜色词。",
+   "id": "ext-p3-cx-024"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"垂头丧气\"中\"丧\"的意思是（  ）",
+   "a": [
+    "死亡",
+    "丢失、失去",
+    "丧事"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "\"垂头丧气\"形容失望懊丧的样子。\"丧\"在这里是\"丢失、失去\"的意思，指失去了精气神。",
+   "id": "ext-p3-cx-025"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "下列各组中，两个词语意思相近的一组是（  ）",
+   "a": [
+    "美丽——丑陋",
+    "高兴——快乐",
+    "粗心——认真",
+    "寒冷——炎热"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "A、C、D三组都是反义词关系，只有B项\"高兴\"和\"快乐\"是近义词关系。",
+   "id": "ext-p3-cx-026"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "一篇作文的开头写道：\"我家养了一只小猫，它非常可爱。\"这个开头运用了什么方法？（  ）",
+   "a": [
+    "设问开头",
+    "开门见山，直接点题",
+    "引用名言开头",
+    "描写环境开头"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "文章一开始就直接告诉读者写的是什么（小猫），并点出特点（可爱），属于开门见山的写法。",
+   "id": "ext-p3-cx-027"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"刻舟求剑\"这个成语故事出自（  ）",
+   "a": [
+    "《论语》",
+    "《吕氏春秋》",
+    "《三字经》",
+    "《唐诗三百首》"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "\"刻舟求剑\"出自《吕氏春秋》，讲的是一个人在船上掉了剑，在船舷上刻记号来找剑，比喻办事不知变通。",
+   "id": "ext-p3-cx-028"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "《伊索寓言》的作者是（  ）",
+   "a": [
+    "中国古代文学家",
+    "古希腊的伊索",
+    "英国的莎士比亚",
+    "丹麦的安徒生"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "《伊索寓言》是古希腊的伊索创作的寓言故事集，包含《龟兔赛跑》《狐狸和葡萄》等经典故事。",
+   "id": "ext-p3-cx-029"
+  },
+  {
+   "type": "single",
+   "subject": "语文",
+   "level": "三年级",
+   "q": "\"竹外桃花三两枝，春江水暖鸭先知\"的作者是（  ）",
+   "a": [
+    "杜甫",
+    "苏轼",
+    "曾几"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "出自苏轼的《惠崇春江晚景》。",
+   "id": "ext-p3-cx-030"
+  }
+ ]
+}

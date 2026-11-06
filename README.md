@@ -139,6 +139,22 @@ APK 自带下列题库（`data/banks/`），新装和覆盖升级时自动导入
 | 初中（八年级上） | 生物 | junior-biology.json | 47 |
 | 初中（八年级上） | 历史 | junior-history.json | 54 |
 
+#### 外部开放题库（已筛选、逐题核对）
+
+| 学段 | 学科 | 题库文件 | 题量 | 来源 |
+|---|---|---|---|---|
+| 小学（三年级） | 语文 / 数学 / 英语 | grade3-ext-thl529.json | 59 / 85 / 75 | thl529/question-bank 三年级上下册 |
+| 小学（二年级下，复习） | 语文 / 数学 / 英语 | grade3-ext-thl529-g2review.json | 28 / 74 / 40 | thl529/question-bank 二年级下册 |
+| 初中（七上–八上） | 物理 | junior-ext-cjeval-physics.json | 117 | CJEval |
+| 初中（七上–八上） | 数学 | junior-ext-cjeval-math.json | 149 | CJEval |
+| 初中（七上–八上） | 语文 | junior-ext-cjeval-chinese.json | 33 | CJEval |
+| 初中（七上–八上） | 英语 | junior-ext-cjeval-english.json | 124 | CJEval |
+| 初中（七上–八上） | 地理 | junior-ext-cjeval-geography.json | 107 | CJEval |
+| 初中（七上–八上） | 生物 | junior-ext-cjeval-biology.json | 113 | CJEval |
+| 初中（七上–八上） | 历史 | junior-ext-cjeval-history.json | 99 | CJEval |
+
+题目来源与致谢：小学题来自 [thl529/question-bank](https://github.com/thl529/question-bank)（原仓库未声明开源许可，作者注明仅供学习参考、请勿商用）；初中题来自 [CJEval](https://github.com/SmileWHC/CJEval)（Zhang et al., 2024, [arXiv:2409.16202](https://arxiv.org/abs/2409.16202)），该数据集仅限学习 / 学术研究用途，禁止商用。导入时只取单选题，去掉带图、长材料、超纲和高难度题，与已有题库去重，并逐题核对答案、删除答案存疑或多解的题目。
+
 初中题库按人教版 / 部编版，只覆盖**七年级上下册 + 八年级上册**已学内容（如物理：机械运动、声、物态变化、光、透镜、质量与密度；数学：三角形、全等、轴对称、整式乘法与因式分解、分式；历史到中国近代史），不含八年级下册和九年级内容。新增题库后可运行 `python3 scripts/validate_banks.py` 检查格式、答案下标和 id 是否重复。
 
 ### 自动构建

@@ -1,0 +1,1975 @@
+{
+ "name": "初中英语（七上–八上，外部题库 CJEval）",
+ "version": 1,
+ "source": "https://github.com/SmileWHC/CJEval",
+ "license": "CJEval：仅限学术/研究用途，禁止商用",
+ "description": "来源：CJEval 基准数据集（https://github.com/SmileWHC/CJEval，Zhang et al., 2024, arXiv:2409.16202），由真实初中考试题改写。原作者声明仅限学术与研究用途，禁止商用；本应用为家庭学习用途。已按七上/七下/八上（人教/部编）范围筛选，去掉带图、长材料、高难度题，并逐题人工核对答案，删除答案存疑或多解的题目。",
+ "items": [
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Do you prefer tea __ coffee?—I prefer coffee.",
+   "a": [
+    "or",
+    "but",
+    "so",
+    "and"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "答案：A. or。首先分析问句中包含的意思，问句询问的是喜欢茶还是咖啡，提示了是个选择问题。根据选项含义判断：A选项'or'表示'或者'，用在表示选择关系的句子中，符合此处情境；B选项'but'表示'但是'，用于转折关系；C选项'so'表示'因此'，表达因果关系；D选项'and'表示'和'，适用于并列关系。",
+   "id": "ext-j-eng-001"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "-Can you tell me how to __ a dog？-It's not easy. Here's a book that will tell you a lot of dos and don'ts.",
+   "a": [
+    "look after",
+    "look for",
+    "look into",
+    "look like"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "答案：A. look after。首先根据句意判定，空缺部分应填写的是有关照顾宠物的表达。动词短语'照看'意为'look after'，符合句意。而其他选项中：'寻找'意味着'look for'；'研究'意味着'look into'；'看起来像'意味着'look like'，都与句意不符。因此正确答案为A。",
+   "id": "ext-j-eng-002"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I asked two students the way to the post office, but ____ of them knew.",
+   "a": [
+    "none",
+    "either",
+    "neither",
+    "both"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "答案：C. neither。在判断正确答案时，可以通过排除法逐一排除不符合句意的选项。'None'通常用于三者或更多的情况，这里指的是两名学生，所以不合适。 'Either'表示两者中任一者，不符合句意。这题需要表达两者都不知道，因此 'both' 显然不合适。‘Neither’表示两者都不，这正好符合句子的意思。",
+   "id": "ext-j-eng-003"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“Don’t worry. __ 都准备好了，” Joe 对他的母亲说道。",
+   "a": [
+    "Everything",
+    "Something",
+    "Anything",
+    "Nothing"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "答案：A. Everything。分析句子的意思，根据Joe对他母亲说“别担心。”（Don't worry.），我们可以推断他想传达的信息是所有事情都已经准备好，没有什么需要担心的情况。接下来，我们根据选项区分不同代词的意义：每件事指所有的事情，常用于肯定句；某件事指某一特定的事，常用于肯定句；任何事意为任何事情，多用于否定句或疑问句；",
+   "id": "ext-j-eng-004"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "--- __ does Mary visit the Buddy Club? --- Once every week.",
+   "a": [
+    "How far",
+    "How often",
+    "How much",
+    "How long"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "答案：B. How often。句意分析：问题询问的是Mary去Buddy Club的频率，即“每周去几次”。答句中的'Once every week'表示每周一次，问题关注的是频率。选项分析：B选项'How often'意为'多久一次'，用来询问频率，符合答语'Once every week'的时间频率；",
+   "id": "ext-j-eng-005"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Tom needs some help __ his homework. Can you help __?",
+   "a": [
+    "for , him",
+    "with , him",
+    "with , his",
+    "/ , him"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "答案：B. with , him。句意理解：根据句子的意思，Tom需要帮助完成作业，第一个空格应填表示“在某事上”的介词，第二个空格填入指代Tom的代词。\\n介词用法分析：'need help with sth' 表示'需要在某事上获得帮助'；'help sb' 意为'帮助某人'。",
+   "id": "ext-j-eng-006"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I am capable of washing __ own clothes by myself. You should wash __ own.",
+   "a": [
+    "mine, your",
+    "my, yours",
+    "yours, mine",
+    "my, your"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "答案：B. my, yours。首先，句子结构指明需要填入的空白处为物主代词。第一空后面跟有名词clothes，因此需要使用形容词性物主代词。根据第一人称单数，选用my作形容词性物主代词。第二空后面没有名词，这时需要使用名词性物主代词。根据第二人称单数，选择yours。因此，第一空选my，第二空选yours，答案是选项B。",
+   "id": "ext-j-eng-007"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—The clock says it’s time __ lunch.—All right. Let’s __.",
+   "a": [
+    "for; go",
+    "to; going",
+    "for; going"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "答案：A. for; go。首先，根据句意和固定表达式，'It's time for sth'表示'该做某事了'. 其次，let后通常接动词原形作宾语补足语，所以'Let's go'是正确搭配。综合上述分析，答案选择'A. for; go'. 这题的考点是考查介词及非谓语动词的用法。",
+   "id": "ext-j-eng-008"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "We can stay __ touch with David through the Internet.",
+   "a": [
+    "in",
+    "on",
+    "to"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "答案：A. in。在处理介词选择题时，识别固定搭配或短语是关键。'stay __ touch with'是一个固定短语，意为'与某人保持联系'。正确的介词填空应为'stay in touch with'，因此本题正确答案是选项A。掌握固定搭配有助于正确使用介词，这是考察学生对短语搭配掌握的重要内容。",
+   "id": "ext-j-eng-009"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Do you have toys? I’d like to buy ___ for my cousin.",
+   "a": [
+    "that",
+    "one",
+    "it",
+    "this"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "答案：B. one。首先理解题意：询问是否有玩具，因为想为表兄弟购买。选项A 'that' 和选项D 'this' 是指示代词，通常用来指代特定物品，题目中没有明确提到具体的玩具，所以不选。选项B 'one' 是泛指某类中的一个，适合用在这里，因为没有指定特定玩具。选项C 'it' 通常用于指代前面提到的具体事物，这里也不适合。",
+   "id": "ext-j-eng-010"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Her father likes __dinner but hates__the dishes.",
+   "a": [
+    "making; making",
+    "making; doing",
+    "doing; doing"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "答案：B. making; doing。首先，我们需要确定空格中应该使用的动词。她的父亲喜欢做饭，但是讨厌洗盘子，根据动词短语like doing表示喜欢做某事；hate doing表示讨厌做某事；做饭用make dinner;动词短语do the dishes表示洗盘子。 根据句意和这些动词短语的使用规则，正确答案是B。",
+   "id": "ext-j-eng-011"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Does __ like to give it a shot?",
+   "a": [
+    "anyone",
+    "nobody",
+    "someone",
+    "anything"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "答案：A. anyone。试题分析: 根据句意：'有人喜欢尝试一下吗？' 这是一个一般疑问句，询问是否有人愿意尝试。在这里需要选择一个合适的不定代词来填空。选项C的'someone'常用于肯定句中；选项D的'anything'用于指物，不适合此句，因为询问的是人；选项B的'nobody'表示'没有人'，与疑问句的意图不符；",
+   "id": "ext-j-eng-012"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "- __ -D-O-G.",
+   "a": [
+    "How are you?",
+    "What is this?",
+    "Can you spell it?",
+    "It's a book."
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. Can you spell it?。根据提示'- __ -D-O-G'，需要对单词'dog'进行拼写。选项A问的是你好吗，不涉及拼写；选项B问的是这是什么，也不符合拼写要求；选项D说这是一本书，与拼写无关；而选项C是要求进行拼写的表达，符合题意。因此，正确答案是C。",
+   "id": "ext-j-eng-013"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Is he tall or short?—He isn't tall __ short. He is average height.",
+   "a": [
+    "or",
+    "and",
+    "so",
+    "but"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. or。首先理解句意，对方询问的是身高问题，需要选择一个合适的连词来表达'他不高也不矮'。选项A的'or'在否定句中连用，可以表示两个否定概念的选择，符合句意。选项B的'and'一般用于连接正面意义的并列成分，但此处表示选择关系，不适用。选项C的'so'用于表达因果关系，这里也不适用。",
+   "id": "ext-j-eng-014"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Mary’s parents are managers and __ work in a big hotel.",
+   "a": [
+    "they",
+    "I",
+    "you",
+    "we"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. they。根据题意，我们知道句子的主体是 'Mary的父母'，这个是复数形式，因此我们需要选择一个可以指代复数的代词。选项A'他们'是第三人称复数，选项B'我'是第一人称单数，选项C'你'可以是第二人称单数或复数，选项D'我们'是第一人称复数。由于'Mary的父母'是第三人称复数，所以正确答案应该使用'他们'来指代，故选A。",
+   "id": "ext-j-eng-015"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "— What activity __ he __ at the moment? — He’s reading.",
+   "a": [
+    "does; do",
+    "is; doing",
+    "has; done",
+    "will; do"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. is; doing。首先，需要确认时态。根据对话中的'at the moment'和'He’s reading'，明确此时正在进行的动作，所以使用现在进行时。现在进行时的结构是：主语+be动词(am/is/are)+动词现在分词(doing)。主语是'He'时，使用be动词'is'。疑问句中，be动词要放在主语之前。",
+   "id": "ext-j-eng-016"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Review the guide Cute Pets, __ you will learn how to care for your cat.",
+   "a": [
+    "so",
+    "but",
+    "and",
+    "or"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. and。这道题考查的是连词的用法。给出的两个句子是 'Review the guide Cute Pets' 和 'you will learn how to care for your cat'。这两个句子表述的是一种因果关系：回顾这本指南是为了学会如何照顾你的猫。这里并不是选择的或者、所以或是但是的关系，而是并列的关系。",
+   "id": "ext-j-eng-017"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Due to the absence of bus services in the town, we took a __ walk.",
+   "a": [
+    "5-mile",
+    "5-miles",
+    "5 miles",
+    "5 mile"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. 5-mile。首先，根据题干的意思，我们得知谈论的是步行的距离，因此需要配合 'walk' 这个词一起使用对应的表达。其次，掌握数词和名词构成定语时的语法规则。在英语中，当名词用作定语修饰另一名词时，要使用单数形式，并且数词和名词之间要用连字符连接。",
+   "id": "ext-j-eng-018"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "__ crashed down from the roof!",
+   "a": [
+    "How a big piece of wood",
+    "What big piece of wood",
+    "What a large piece of wood",
+    "What a piece of big wood"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. What a large piece of wood。句子结构分析：这个句子是一个感叹句，用来表达惊讶或感叹之情。感叹句的常用结构有两种：一种是'What a/an + 形容词 + 单数名词 + (副词) +!'，另一种是'How + 形容词/副词 + 主语 + 谓语 + !'。",
+   "id": "ext-j-eng-019"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Where __ you visit last night? —I __ to the park.",
+   "a": [
+    "do; went",
+    "did; went",
+    "did; go"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. did; go。根据问句中的时间状语 'last night' 可以判断这是一个一般过去时的句子。一般过去时的疑问句需要使用助动词 'did'，所以第一个空格应填 'did'。由于 'did' 已经表示了过去时，动词需要用原形，因此第二个空格应填动词 'go' 的原形。综上所述，选项C 'did; go' 是正确答案。",
+   "id": "ext-j-eng-020"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Does today’s newspaper have __ worth reading?",
+   "a": [
+    "something interesting",
+    "anything interesting",
+    "interesting something",
+    "interesting anything"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. anything interesting。根据句意“今天的报纸上有值得一读的内容吗？”可知这是一个疑问句。在英语中，通常在疑问句或否定句中使用'anything'而非'something'，尤其当我们不确定是否存在某些东西时。此外，当形容词与不定代词搭配使用时，形容词通常放在不定代词前面。因此，选项B 'anything interesting'是正确答案。",
+   "id": "ext-j-eng-021"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Some students in our school will have __ 18-day trip to China.",
+   "a": [
+    "/",
+    "a",
+    "the",
+    "an"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. an。首先，需要确认使用冠词的情况是泛指还是特定指代。在这个句子中，学生们计划的是一个非特定的旅行，所以使用不定冠词。另外，根据单词开头的音素来选择使用a还是an，a用于辅音音素开头，而an用于元音音素开头。'18-day'以数字'18'开头，其发音以元音音素开头（'eighteen-day'），因此选择'an'这个选项。",
+   "id": "ext-j-eng-022"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "The kids are enjoying themselves __ on the shore.",
+   "a": [
+    "play",
+    "plays",
+    "played",
+    "playing"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. playing。句子结构分析：这句话使用的是现在进行时，描述孩子们正在海滩上的活动。'enjoy themselves' 需要接动名词形式（即动词的现在分词形式）。选项判断：A项 'play' 为动词原形，不符合现在进行时的要求；B项 'played' 为动词的过去式，与句子时态不同；",
+   "id": "ext-j-eng-023"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "-I'm worried about our talent show tomorrow.-Be confident! If you don't believe in yourself, __ will.",
+   "a": [
+    "anybody",
+    "nobody",
+    "somebody",
+    "everybody"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. nobody。首先，理解对话内容，一方表达了对于即将到来的才艺展示的担忧，另一方则在鼓励他要有自信。通过Be confident可以推测后面的选项需要与缺乏自信相对应，即如果你自己都不相信自己，那么也不会有其他人相信你。因此，选项B. nobody（没有人）是正确答案。",
+   "id": "ext-j-eng-024"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "There __ a concert in the park next Friday evening.",
+   "a": [
+    "is going to have",
+    "are going to be",
+    "will be",
+    "will have"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. will be。首先分析句意：'下周五晚上在公园将有一场音乐会'，指的是将来发生的事件。接下来考虑适当的句型。根据'there'开头的句子和将来时的情景，我们应该使用'there be'句型的一般将来时。对于选项A 'is going to have' 和D 'will have'，它们不符合'there be'结构，因此被排除。",
+   "id": "ext-j-eng-025"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Which sport do you like, tennis or baseball?—__. Both of them are really interesting.",
+   "a": [
+    "Neither",
+    "Both",
+    "None",
+    "All"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. Both。题目问的是在网球和棒球之间的选择，因此C和D选项可以直接排除，因为它们涉及三者或以上。根据回答‘这两项运动都很有趣’，我们可以确定回答者喜欢这两项运动，因此正确答案是B，即‘两个都喜欢’。这道题考查的是对不定代词的理解与辨析。",
+   "id": "ext-j-eng-026"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "None of the hats in the store fit me properly. They are __ too loose __ too tight.",
+   "a": [
+    "neither; nor",
+    "either; or",
+    "not only; but also"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. either; or。根据题干中的\"None of the hats in the store fit me properly\" 我们可知，意为商店里的帽子没有一顶合适。接下来的信息\"They are __ too loose __ too tight.\" 意味着帽子要么太松要么太紧。",
+   "id": "ext-j-eng-027"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Could you please stop __ now? It’s already very late. —Sorry, I will.",
+   "a": [
+    "not singing",
+    "don't sing",
+    "not to sing",
+    "not to singing"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. not singing。句意理解：对话内容提示请求对方停止正在做的动作，因为已经很晚了。语法结构：mind后跟动名词形式表示介意做某事。结合句意和语法结构，分析各选项。A项符合 'mind not doing something' 结构，表示 '介意不做某事'。其他选项不符合要求的语法结构。因此，正确答案是A。考点：动词短语搭配。",
+   "id": "ext-j-eng-028"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—My car won't start. Could you __ it for me? —Sure thing.",
+   "a": [
+    "afford",
+    "move",
+    "fix",
+    "drive"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. fix。首先分析句子结构，主句部分“My car won't start”意为“我的汽车启动不了”，表明汽车存在问题需要解决。问句中的关键词是“fix”，根据常识，如果一辆车无法启动，我们通常会想到需要修理。因此，从选项中寻找与“修理”相关的词，A项afford意为“负担得起”，与修理无关；",
+   "id": "ext-j-eng-029"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Many people enjoy watching the show Chinese Poetry Conference __TV.",
+   "a": [
+    "at",
+    "of",
+    "in",
+    "on"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. on。【解析优化】首先，根据句意明确题干表达的是‘许多人喜欢在电视上观看《中国诗词大会》这个节目’。然后，考虑介词的具体用法。‘at’表示在某个点或区域；‘of’通常表示所有关系；‘in’通常用于表示在某个内部位置或空间内；‘on’常用于表达事物位于某个表面上或者是电视及广播媒体相关的表达。",
+   "id": "ext-j-eng-030"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "The elderly gentleman lived in the town __, yet he never felt __.",
+   "a": [
+    "lonely; lonely",
+    "alone; alone",
+    "lonely; alone",
+    "alone; lonely"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. alone; lonely。本题考查近义词的区分。需要明确 'alone' 和 'lonely' 的不同含义和用法。'alone' 表示一种客观状态，即独自一人，不包含情感色彩；而 'lonely' 则带有情感色彩，表示感到孤独或寂寞。",
+   "id": "ext-j-eng-031"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "We __ to the gym every Monday and do weight training.",
+   "a": [
+    "were going",
+    "will go",
+    "went",
+    "go"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. go。首先判断时态应该选用。句中出现的时间状语'every Monday'常用来表示经常性的行为，所以应该使用一般现在时。故选择D。",
+   "id": "ext-j-eng-032"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "After hearing the __ about the Flower Sea, our interest in this location increased.",
+   "a": [
+    "overview",
+    "instruction",
+    "impact",
+    "introduction"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. introduction。先理解句意：'After hearing the __ about the Flower Sea, our interest in this location increased.' 意味着听了关于花海的某种说法之后，我们对这个地方的兴趣增加了。",
+   "id": "ext-j-eng-033"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I appreciate you __ in the school drama.",
+   "a": [
+    "joining",
+    "join",
+    "to join"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. joining。解析：根据题目中的关键词'appreciate'，这里需要注意的是，在appreciate后面要用动名词形式以表示动词的宾语。句意为'我感谢你参加学校的话剧。'因此，选项A‘joining’是正确的选择。",
+   "id": "ext-j-eng-034"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Mobile phones allow people to stay in __ with one another.",
+   "a": [
+    "contact",
+    "picture",
+    "trouble",
+    "mind"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. contact。【详解】分析句意：'手机让人们能够和彼此保持联系。'这句话是围绕手机的作用来描述的，需要找到恰当的固定搭配。选项分析：A项 'contact'与'keep in ... with'搭配构成'keep in contact with'是'与...保持联系'，符合句意；B项 'picture'是'图片'的意思，与句意不符；",
+   "id": "ext-j-eng-035"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Some researchers believe that in the future, individuals __ up to 200 years.",
+   "a": [
+    "were living",
+    "lived",
+    "are living",
+    "will live"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. will live。根据题干谈论的是将来的情况，因此需要用一般将来时的结构，即will + 动词原形。句中‘in the future’明确表明这是有关未来的描述。选项A、B和C都不符合将来时的要求，只有选项D 'will live' 正确表达了将来可能发生的情况。综上所述，正确答案是D。",
+   "id": "ext-j-eng-036"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "By __ local healthcare professionals, we aim to assist more people.",
+   "a": [
+    "training",
+    "to train",
+    "trained",
+    "train"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. training。句意解读：句中主体是‘we’，希望通过‘训练当地的医疗专业人员’来‘帮助更多的人’。关键词是‘by + ___ local healthcare professionals’。结构分析：'by'是介词，其后应使用名词或动名词形式作宾语。选项分析：A项'training'为动名词形式或现在分词形式；",
+   "id": "ext-j-eng-037"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "This pair of glasses is __ than that black pair.",
+   "a": [
+    "expensive",
+    "more expensive",
+    "the most expensive",
+    "most expensive"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. more expensive。根据句子结构，需要用比较级形式，因为句子中出现了'than'这个比较信号词。句子要求比较的是两副眼镜的价格，所以需要用形容词的比较级。'expensive'是多音节词，根据比较级的构成规则，多音节形容词的比较级用'more'来表示。因此，正确答案是选项B 'more expensive'。",
+   "id": "ext-j-eng-038"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Currently, there __ a lot of people in the park.",
+   "a": [
+    "is",
+    "were",
+    "are",
+    "was"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. are。本题考查的是there be句型和动词时态的运用。首先，根据'there be'句型的构成，我们知道后面应该跟着一个be动词。接着，由于主语'a lot of people'明显是复数形式，所以be动词也应该用复数形式。最后，根据时间状语'currently'提示我们是描述现在的情况，所以句子应该使用一般现在时态。",
+   "id": "ext-j-eng-039"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Alice, do you know what your brother is doing? —He __ the guitar at the moment.",
+   "a": [
+    "is playing",
+    "plays",
+    "has played",
+    "will play"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. is playing。从提问句的结构'What is your brother doing?'可以看出，这是现在进行时的句型，因为'What is...'缩写成了'What's...'，并且答句中有明确表示当前时间的状语'at the moment'，所以动作现在正在进行。",
+   "id": "ext-j-eng-040"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Our soccer team __ another soccer team in yesterday’s game.",
+   "a": [
+    "beats",
+    "will beat",
+    "has beaten",
+    "beat"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. beat。首先确定需要填入的动词的时态。致胜于昨天比赛的表述指向一般过去时，因为yesterday表明了动作发生在过去。遵循这一线索，我们可以排除A项（beats），因为它是一般现在时的第三人称单数形式；B项（will beat），因为它是一般将来时态；和C项（has beaten），因为它是现在完成时态的形式。",
+   "id": "ext-j-eng-041"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Tomorrow is Saturday. How about __ for a swim?",
+   "a": [
+    "to going",
+    "goes",
+    "going",
+    "go"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. going。【详解】此题测试的是非谓语动词的用法。句意为：明天是周六，去游泳怎么样？'How about'这个短语后面应跟动名词形式，以表示建议。因此，正确答案应是动名词'going'。所以正确答案是C。",
+   "id": "ext-j-eng-042"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "— It’s time for class. Please stop __. — Yes, sir.",
+   "a": [
+    "to talk",
+    "talk",
+    "talking",
+    "to talking"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. talking。这道题主要考察动词stop的用法。stop doing sth表示“停止做某事”，而stop to do sth表示“停下来去做某事”。题目中的“上课时间到了”提示我们现在需要停止说话，所以要使用动名词形式（talking）。因此，正确答案是C。",
+   "id": "ext-j-eng-043"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "How about reading the novel? In my opinion, it is worth __.",
+   "a": [
+    "to read",
+    "reads",
+    "reading",
+    "read"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. reading。根据句意：为什么不读这个小说？在我看来，这本小说值得一读，我们可以看出后半句是对小说的评价。英语中表示“值得做某事”的常用表达是be worth doing，这里的doing是动名词形式。",
+   "id": "ext-j-eng-044"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—The meat is __ delicious. —Yes, but don’t eat __.",
+   "a": [
+    "very; too much",
+    "much too; too much",
+    "very; much too",
+    "much too; much too"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. much too; too much。首先明确副词的用法：'过于'（much too）用来修饰形容词，表示'太……'，而'过多'（too much）修饰不可数名词，表示'太多'。根据句意'这块肉真是过于好吃。是啊，但不要吃过多。'，第一空描述肉的味道（形容词好吃），应该用'过于'，第二空提醒不要吃的数量（不可数名词），应该用'过多'。因此，正确答案选B。",
+   "id": "ext-j-eng-045"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "It looks like there __ a meeting scheduled for 3 pm. Unfortunately, I won't be able to join you.",
+   "a": [
+    "are",
+    "has been",
+    "was",
+    "will be"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. will be。【分析步骤】首先明确句子中描述的时间状语，根据'scheduled for 3 pm'可以判断事件的时间是在将来。同时，'I won't be able to join you'暗示说话人表达的是未来无法参加的事实。因此，我们可以排除过去时的选项C和完成时的选项B，因为这两个时态不符合语境中描述的将来情况。",
+   "id": "ext-j-eng-046"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "__ excellent chef she has become!",
+   "a": [
+    "What",
+    "What an",
+    "How",
+    "How an"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. What an。这是一个感叹句，用来强调“excellent chef”这个名词短语。英语中，若要表达强烈情感，可以使用'What'或'How'来构造感叹句。因为'excellent'以元音开头，所以需要使用不定冠词'an'而不是'a'。",
+   "id": "ext-j-eng-047"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Where __ your aunt and uncle travel last month, Jim? —They __ to Malaysia.",
+   "a": [
+    "did; went",
+    "do; go",
+    "will; went",
+    "did; go"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. did; went。题意为：——吉姆，你的婶婶和叔叔上个月去哪里旅行了？——他们去了马来西亚。由于提到了过去的时间点'last month'，意味着句子需要用一般过去时态。回顾时间状语的过去时标志，可以确定动词形式。第一空用疑问词'Where'引导的特殊疑问句，需借助助动词'did'构成过去时疑问句型；",
+   "id": "ext-j-eng-048"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—We don’t have much homework this weekend. Shall we go out together? —OK. How about __ a movie?",
+   "a": [
+    "seeing",
+    "to see",
+    "see",
+    "sees"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. seeing。1. 分析句子结构，We don't have much homework这周末作业不多，提出建议Shall we go out together? 是否一起出去。2. 根据询问看电影怎么样，是征询对方意见的表达方式。3. 看电影的行为应使用动词形式，故排除to see和see。",
+   "id": "ext-j-eng-049"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "__ Bill __ two tennis balls?",
+   "a": [
+    "Do; have",
+    "Does; have",
+    "Do; has",
+    "Does; has"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. Does; have。这是一个一般疑问句的构成问题。首先，'Bill'作为主语时，表示单数第三人称，所以我们要用's/has'作为助动词，这就排除了使用'Do'的选项A和C。其次，由于助动词'does'已经表明了单数第三人称，接下来的动词必须用原形，所以'Does; has'选项D也是不正确的。因此正确答案是'B. Does; have'。",
+   "id": "ext-j-eng-050"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—__is your consumption of fast food? - Twice a week.",
+   "a": [
+    "How frequently",
+    "How long",
+    "How soon"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. How frequently。题目分析：根据回答'Twice a week.' 可以判断，问题在询问某个行为发生的频率。解析如下： 1. A选项'How frequently'用于询问频率，即动作发生的次数。 2. B选项'How long'用于询问时间长度或事物的长度。 3. C选项'How soon'用于询问多快，即动作发生的速度。",
+   "id": "ext-j-eng-051"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—How did you feel about the trip? —__.",
+   "a": [
+    "The weather was fine",
+    "By train",
+    "I'm very tired",
+    "It was great"
+   ],
+   "k": 3,
+   "difficulty": 3,
+   "tip": "答案：D. It was great。题目要求对旅行的感受进行评价。选项A '天气很好' 表达的是天气状况，而不是对于旅行的感受；选项B '火车出行' 只描述了旅行的方式，而非对旅行的评价；选项C '我非常累' 使用了现在时态，但题干问题询问的却是对过去旅行的感受，因此不符；选项D '它很棒' 使用了过去时态，并且直接给予了积极的旅行评价，符合提问意图。",
+   "id": "ext-j-eng-052"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "__ shame! I can’t go to Ben’s birthday party.",
+   "a": [
+    "What an",
+    "What",
+    "What a",
+    "How"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. What a。首先明确题目要求填写的是感叹句的开头。感叹句常见有两种结构：'What'后可以跟 '(a/an) + 形容词 + 名词'，或者'How'后跟 '形容词/副词'。在这个句子中，'shame'是被感叹的名词，因此应该使用'What'。进一步地，因为'shame'是一个可数名词且此处处于单数形式，需要搭配不定冠词'a'。",
+   "id": "ext-j-eng-053"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—__ lovely afternoon! Shall we take a walk by the river?—Sounds great.",
+   "a": [
+    "What an",
+    "How",
+    "What a",
+    "What"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. What a。这是一个考查感叹句的题目。首先明确感叹句的构成有两种类型：一是'what'引导的感叹句，用于修饰名词或名词短语；二是'how'引导的感叹句，用来修饰形容词、副词或动词。",
+   "id": "ext-j-eng-054"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—__ did you __ for lunch? —Italian food.",
+   "a": [
+    "When；have",
+    "What；have",
+    "Why；have",
+    "How；have"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. What；have。这是一个询问所吃食物的问句。选项B中的'What'用作疑问词表示'什么'，而'have'作为动词在此处意味着'吃'(用餐)。组合起来'What did you have'即询问'你吃了什么'，符合答语中提到的'意大利菜'作为所吃的食物的回答。选项A中的'When'表示'何时'，与这种询问情境不符；",
+   "id": "ext-j-eng-055"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I could barely spot __I was familiar with in the lecture hall.",
+   "a": [
+    "anyone",
+    "someone",
+    "no one",
+    "everyone"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. anyone。首先确定句意：句中'barely'表达了否定意义，意为几乎没有，因此我们需要寻找一个用于否定句中的不定代词。在否定句中，通常使用'any-'开头的不定代词，选项中‘A. anyone’符合这一条件。其他选项如'B. someone'通常用于肯定句；",
+   "id": "ext-j-eng-056"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Has your brother read this book? —Yes. He __ it two weeks ago.",
+   "a": [
+    "has read",
+    "read",
+    "reads",
+    "had read"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. read。首先分析问题情境，问句询问的是“读过这本书吗”，暗含的时间状语为“过去”的某个时间点，答句明确提到具体时间“两周前”。根据英语时态使用原则，描述过去某个时间点完成的动作应使用一般过去时。结合时间状语“two weeks ago”，我们需要选择动词的一般过去时形式。",
+   "id": "ext-j-eng-057"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "This is __ history book and that is __ art book.",
+   "a": [
+    "a; an",
+    "an; a",
+    "a; a"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. a; an。首先明确题目中需要填入的是不定冠词。根据英语语法规则，不定冠词'a'用于辅音音素开头的单词前面，而'an'用于以元音音素开头的单词前。我们观察两个关键词：'history'以辅音音素[h]开头，而'art'以元音音素[ɑː]开头。因此，'history'前应使用'a'，'art'前应使用'an'。",
+   "id": "ext-j-eng-058"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Look! The old man is in the middle of the street. It’s too dangerous. —Let’s help him go __ the street before the traffic lights turn red.",
+   "a": [
+    "through",
+    "across",
+    "over",
+    "past"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. across。首先分析题目描述，句子提到一位老人站在马路中央，并需要帮助他穿过马路。因此，我们需要选择一个表示'从一边到另一边'的介词。选项A的'through'表示'从内部穿过'，在街道这样的环境中不合适；选项B的'across'表示'从表面穿过'，正符合题意；选项C的'over'意为'在...上面'，不贴合语境；",
+   "id": "ext-j-eng-059"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Did you visit __ during last summer vacation? —Yes. I visited Shanghai Disney.",
+   "a": [
+    "special somewhere",
+    "somewhere special",
+    "special anywhere",
+    "anywhere special"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. anywhere special。【详解】首先明确句意：问话者问去年暑假是否去了什么特别的地方，回答者确认去了特别的地方，即上海迪士尼。接下来确认语法考点：根据句子结构，我们知道这是一个一般疑问句，需要用到不定代词。'somewhere'通常用于肯定句，表示某个地方；'anywhere'则用于疑问句或否定句中，表示任何地方。",
+   "id": "ext-j-eng-060"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Why are you laughing, Daniel?— There is __ interesting in the newspaper. Come and see.",
+   "a": [
+    "something",
+    "anything",
+    "everything",
+    "nothing"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. something。题目中‘Daniel你为什么在笑？’表明报纸上确实有好玩的事情引起了笑声，因此可以判断情境是肯定的。在英语中，表示'某些事物'通常使用'something'，特别是在肯定句中。反观其他选项：'anything'用于疑问句或否定句，'everything'表示'全部，所有'，'nothing'意为'没什么'。",
+   "id": "ext-j-eng-061"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Don’t worry. I can help you __ English.",
+   "a": [
+    "at",
+    "for",
+    "in",
+    "with"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. with。在这里我们要考查固定搭配的使用。常见的介词短语有：help sb. with sth表示'在某方面帮助某人'。其他选项中，'at'用于表示位置或方向，'for'用于表示目的，而'in'用于表示在某范围之内。根据句意，老师在帮助学生的英语，所以适当的介词是'with'。故选D。",
+   "id": "ext-j-eng-062"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Miss Liu __ to this city two years ago.",
+   "a": [
+    "will move",
+    "moved",
+    "moves"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. moved。根据句意，Miss Liu两年前搬到了这座城市，表示过去发生的动作，需要用到一般过去时。一般过去时的动词形式为动词的过去式。由于时间状语是'two years ago'，它明确指出了动作发生的是过去，所以排除现在时态和将来时态，即排除选项C和A。因此，正确选项为B，过去式'moved'符合题目要求。",
+   "id": "ext-j-eng-063"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Honey, would you please fill the bottle __ water? —I’m glad to, but the bottle is full __ water now.",
+   "a": [
+    "with, of",
+    "with, with",
+    "of, with",
+    "of, of"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. with, of。解析：第一句中的'把瓶子装满__水'需要使用介词搭配'fill sth with sth'，表示'用……装满……'。第二句表述瓶子已经装满__水，因此使用'be full of'结构，表示'充满……'。根据这两个固定搭配，选项A 'with, of'是正确答案。",
+   "id": "ext-j-eng-064"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "— It’s so hot! Would you like to have some __ to drink? — Good idea.",
+   "a": [
+    "bread",
+    "milk",
+    "water",
+    "eggs"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. water。分析题干中提到'天气好热啊! 要不要喝点什么?'，所以我们需要找一个可以喝的东西。选项A的面包(Bread)和选项D的鸡蛋(Eggs)都是固体，不符合喝的要求；选项B的牛奶(Milk)虽然是液体，但其用法需要注意不可数名词形式，我们这里用的是复数，所以不适用；",
+   "id": "ext-j-eng-065"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Is this __ book? —Yes, it’s __. My brother gave it to me.",
+   "a": [
+    "your; mine",
+    "yours; mine",
+    "your; my",
+    "yours; my"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. your; mine。首先分析句子结构，第一空前有名词book，因此需要用形容词性物主代词来修饰它，排除B和D选项，因为它们用了名词性物主代词。然后，根据句意，第二空应表达归属关系，且位于句尾，没有后续名词修饰，因此需要用名词性物主代词。在英语里，my用来修饰名词表示'我的'，而mine直接表示'我的'（某物），无需再跟名词。",
+   "id": "ext-j-eng-066"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Tomorrow I’ll take the final examination, and I feel nervous. —Don’t worry. It’s __ to feel nervous before an exam.",
+   "a": [
+    "natural",
+    "exciting",
+    "rude",
+    "perfect"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. natural。根据题干中的对话，第一位发言者提到自己感到紧张，因为即将参加期末考试。第二位发言者安慰说考试前感到紧张是正常的。这里需要选择一个形容词来形容“考前紧张”这一现象，选项C的粗鲁的意为‘rude’，不符合句意；B的激动的意为‘exciting’，虽与紧张有关但不够准确；D的完美的意为‘perfect’，与紧张无关；",
+   "id": "ext-j-eng-067"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—He is unable to swim.—__.",
+   "a": [
+    "Neither am I",
+    "So am I",
+    "Neither I am",
+    "So I am"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. Neither am I。根据题目中第一个人说 'He is unable to swim.'，表示否定情况，第二个人要表达与第一个人相同的否定情况。在英语中，当后者想要表示和前者相同的否定行为时，可以采用 'neither/nor + 助动词/情态动词/be动词 + 主语' 的结构来表达 '我也不'。",
+   "id": "ext-j-eng-068"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Remember to send him an e-mail on his birthday. —OK, I __.",
+   "a": [
+    "don’t",
+    "can’t",
+    "haven’t",
+    "won’t"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. won’t。根据对话中的“记得要在他生日那天给他发一封电子邮件”，可以看出这是一个提醒将来的行为。在回答中使用'would'来表达对未来的承诺，而否定形式'won’t'表示“不会忘记”，这符合句意。因此选D项表示“好的，我不会忘记的”，体现了将来时的用法。",
+   "id": "ext-j-eng-069"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "At weekends, you don’t have to wear __ uniform",
+   "a": [
+    "/",
+    "an",
+    "the",
+    "a"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. a。这道题目考查的是冠词的用法。首先，根据句意我们知道在周末不需要穿制服，这里的\"制服\"是泛指一类事物，并不特指某一个具体的制服，因此选项C 'the'（表示特定的事物）不符合这里的用法。接下来，由于单词'uniform'以辅音音素开头，根据冠词的用法规则，我们应该使用不定冠词'a'来修饰辅音音素开头的名词。",
+   "id": "ext-j-eng-070"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Mum, can I have something __? —Oh, dear. We only have drinks in the kitchen. There is __ in it.",
+   "a": [
+    "to eat; something else",
+    "to drink; something else",
+    "to eat; nothing else",
+    "to drink; nothing else"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. to eat; nothing else。在这道题中，我们首先要理解对话的具体内容。第一个空需要填与'吃的'有关的选项，选项A和C中的'可以吃的'适合填充。接下来，依据母亲的回答'厨房里只有饮料'，我们可以推断出没有其他可供选择的食物。因此第二个空应填表示'没有其他的'的短语，这里C选项中的'没别的'符合这一含义，因此最终答案是C。综上所述，'可以吃的；",
+   "id": "ext-j-eng-071"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "All my family have fallen asleep __ me. I'm still working on my paper.",
+   "a": [
+    "except",
+    "instead",
+    "without",
+    "besides"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. except。句意：家里所有人都已经睡着了，只有我还在写论文。这里需要选择一个介词来表示'除了我之外'的意思。分析每个选项：A. 'except'意为'除了'，表示从整体中排除部分；B. 'instead'意为'替代'；C. 'without'意为'没有'；D. 'besides'意为'除了……之外'，并且包含说的对象。",
+   "id": "ext-j-eng-072"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "There is __ pretty park beside the library building.",
+   "a": [
+    "an",
+    "a",
+    "/",
+    "the"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. a。首先，理解句意：在图书馆旁边有一个漂亮的公园。这个句子考查的是不定冠词的使用。由于公园不是特指某个已知的公园，因此不能使用定冠词'the'。同时，'park'是一个可数名词，所以合适的选择应该是不定冠词。进一步分析，不定冠词'a'用于辅音音素开头的单词前，而形容词'pretty'正是以辅音音素'p'开头的单词。",
+   "id": "ext-j-eng-073"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Just outside our residential complex, there is __ one-way street.",
+   "a": [
+    "an",
+    "a",
+    "/",
+    "the"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. a。首先，分析题干句意：'在我们的住宅小区外，有一条单行道。'这是在描述一个具体的街道。接下来，辨析冠词的用法。不定冠词'a'和'an'用于描述第一次提及的或不特指的单数可数名词，而定冠词'the'用于特指或已提及的事物。由于'street'是可数名词单数形式，需要使用不定冠词。",
+   "id": "ext-j-eng-074"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Mr. King occasionally __ the metro back home.",
+   "a": [
+    "takes",
+    "to take",
+    "take",
+    "taking"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "答案：A. takes。首先，我们需要判断句子的时态，根据'偶尔'这个词可以判断出句子使用的一般现在时。接着明确句子的主语，'King先生'是第三人称单数，因此动词需用第三人称单数形式。由此可排除掉take(原形)、taking(现在分词形式)和to take(不定式形式)，所以正确答案为A，即'King先生偶尔坐地铁回家。",
+   "id": "ext-j-eng-075"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "The poet has gained __ from nature, which has helped him write numerous poems about rural life.",
+   "a": [
+    "instructions",
+    "courage",
+    "inspiration"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "答案：C. inspiration。首先分析句意，'诗人从大自然中'获得了某种东西，帮助他创作了许多关于乡村生活的诗歌。选项中，'instructions'意为指示，'courage'意为勇气，'inspiration'意为灵感。结合句意，明显是指诗人从自然中获取了灵感，而不是指示或勇气。因此答案选C。",
+   "id": "ext-j-eng-076"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "We go to school every day __ Saturday and Sunday.",
+   "a": [
+    "besides",
+    "except",
+    "outside"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "答案：B. except。根据句意可知，此处表示的是'除了'周六和周日，其他时间都要上学，因此需要排除周六和周日。'besides'意味着'包括'，'except'表示'除了'，'outside'指的是'在外面'。由此可知，合适的选项是'except'，即不包括周六和周日。故正确答案是B。",
+   "id": "ext-j-eng-077"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "He ____ his name to me, but I can't recall it now.",
+   "a": [
+    "was telling",
+    "will tell",
+    "tells",
+    "told"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "答案：D. told。首先，通过句意理解事件发生的时间，句子中的'but I can't recall it now'表明动作发生在过去，因此需要用过去时态。其次，分析各选项所对应的时态：'was telling'是过去进行时态，'will tell'是一般将来时态，'tells'是一般现在时态，'told'是一般过去时态。",
+   "id": "ext-j-eng-078"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Alice just arrived here, so we know __ about her.",
+   "a": [
+    "something",
+    "everything",
+    "nothing",
+    "anything"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. nothing。句意解析：根据'Alice 刚到这里'，我们知道Alice是一个刚来的人。因此，我们对她的了解应该是非常有限的，即我们几乎什么都不知道。词汇选择辨析：'没有任何事情'意味着'完全不知道'，符合我们对Alice所知甚少的情况；'某些事情'意味着'知道一些事情'，表示我们对她有一定了解；",
+   "id": "ext-j-eng-079"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Neil and Roy are close friends. They do __ together.",
+   "a": [
+    "nothing",
+    "something",
+    "anything",
+    "everything"
+   ],
+   "k": 3,
+   "difficulty": 3,
+   "tip": "答案：D. everything。题目询问Neil和Roy这对亲密朋友一起做哪些事情。选项A 'nothing' 意味着'什么都不做'，与题意不符；选项B 'something' 表示'某件事'，范围太小；选项C 'anything' 通常用于否定句或疑问句；",
+   "id": "ext-j-eng-080"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Something unusual occurred __ her yesterday, so she felt scared to go out by herself tonight.",
+   "a": [
+    "for",
+    "to",
+    "with",
+    "at"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. to。【分析步骤】首先明确句意：'昨天她经历了一件不寻常的事情，因此今晚她害怕独自外出。' 对于介词的选用，考虑到介词的搭配习惯和含义。'for'通常用来表达'为了某事'；'to'表示'发生于某人或某事上'；'with'通常表示'和……一起'；'at'通常用来表达'在某地点'。",
+   "id": "ext-j-eng-081"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Did you see the animal performance yesterday? —No. We were __ to get the last bus.",
+   "a": [
+    "late enough",
+    "too early",
+    "early enough",
+    "too late"
+   ],
+   "k": 3,
+   "difficulty": 3,
+   "tip": "答案：D. too late。首先，理解题目中描述的具体情况：由于来不及错过了动物表演。因为描述的是未能赶上最后一班公交车，所以需要使用'太...以至于不能...'的结构。'too...to...'表示'太...以至于不能...'，而'enough to'表示'足够...去做某事'。",
+   "id": "ext-j-eng-082"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "— What do you think of the dress? — Wonderful. I don’t think I can get a __ one.",
+   "a": [
+    "good",
+    "bad",
+    "better",
+    "worst"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. better。首先，根据句子'太棒了。'可以判断说话者对这条裙子的评价非常高。接下来的'I don’t think I can get a __ one.'表示说话者认为不可能找到一条更好的裙子了。根据语境和语法结构，选项C'更好'（better）是唯一合适的选择。该题考察学生对形容词比较级的理解和语境分析能力，因此正确答案是C。",
+   "id": "ext-j-eng-083"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Do you want __ orange juice, sir?",
+   "a": [
+    "some",
+    "many",
+    "a lot",
+    "any"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. some。此题考察代词的使用。根据句意'先生，您想要点橙汁吗？'，理解为礼貌地提出请求或建议时，通常使用'some'来表示不可数名词或无法具体数出的内容。选项中的'many'用于可数名词表示大量；'any'通常用于否定句或疑问句，但这里是提建议的情境，而'a lot'表达大量，用法不符合。综上，正确选项是A. some。",
+   "id": "ext-j-eng-084"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Beijing Opera is a significant element of Chinese __.",
+   "a": [
+    "condition",
+    "introduction",
+    "invention",
+    "culture"
+   ],
+   "k": 3,
+   "difficulty": 3,
+   "tip": "答案：D. culture。分析句意：题干句提到的“Beijing Opera(京剧)”是中国的重要组成部分。根据常识，京剧与‘文化’相关。名词辨析：D选项'culture'意为‘文化’，与京剧相匹配；A选项'condition'意为‘条件’，与京剧不符；B选项'introduction'意为‘介绍’，与京剧不符；",
+   "id": "ext-j-eng-085"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Does this wallet belong to __ son? —No, __ is on the chair behind the desk.",
+   "a": [
+    "you; She",
+    "your; His",
+    "you; He",
+    "your; Him"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. your; His。首先明确题目要求填入适当的代词。第一句中 'Does this wallet belong to __ son?' 需要一个形容词性物主代词来修饰名词 'son'，因此第一空应选择 'your' 表示 '你的'。",
+   "id": "ext-j-eng-086"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "The kids are taking a nap. Don't __.",
+   "a": [
+    "wake them up",
+    "wake up them",
+    "wake him up",
+    "wake up him"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. wake them up。首先，理解句意为：'孩子们正在小睡，不要吵醒他们。' 这句话中提到的是多个孩子，因此需要使用复数形式的代词'them'。根据需要的代词我们可以直接排除选项C(wake him up)。",
+   "id": "ext-j-eng-087"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "This girl is pleased with the toy. It is __ gift she has ever received.",
+   "a": [
+    "a best",
+    "the best",
+    "a better",
+    "the better"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. the best。首先，需要明确题目要求通过选择正确的形容词填空。句子中的'ever had'表示描述的是女孩所有收到的礼物中的一个，因此需要用最高级形容词。选项A和C是程度比较级，不适用于描述最高级的情况；选项D中'the better'虽然使用了定冠词'the'，但这是比较级结构，不符合题意。",
+   "id": "ext-j-eng-088"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Is he running __ exercise?—No, I think he is running __ catch a bus.",
+   "a": [
+    "to; for",
+    "to; to",
+    "for; to",
+    "for; for"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. for; to。这是一个考察介词使用的题目。句意中，第一个问句是问是否在跑步锻炼，'做运动'表示'锻炼'，我们通常会说'for exercise'，因此第一个空用'for'。第二个句子说明他跑步的目的是赶公交车，这里使用'run to do something'结构，因此第二个空用'to'。",
+   "id": "ext-j-eng-089"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—What would you like to drink, tea or coffee?—__. I prefer orange juice.",
+   "a": [
+    "Either",
+    "Neither",
+    "None",
+    "Both"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. Neither。句意理解：对话的问题是询问选择喝茶还是咖啡，而回答表明选择了第三种饮品——橙汁。词义辨析：根据对话，答案人表示茶与咖啡他都不想喝，而'neither'意味着'两者都不'，正好符合语境；'none'一般指三者以上全不，'either'表示两者中任一，'both'表示两者都，这些选项都不符合此处语境。故选B项。",
+   "id": "ext-j-eng-090"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Don’t try to keep up with him—he runs __ than me.",
+   "a": [
+    "faster",
+    "worse",
+    "less carefully",
+    "more carefully"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. faster。首先，根据题干中的 '不要试图跟上他——他比我跑得更 __' 可以确定句子讲的是速度的比较。接下来，根据每个选项的含义进行分析：A. '更快' 表示 '比我跑得快'，符合速度比较的语境；B. '更糟' 表示 '更差劲'，这个选项与速度无关；C. '不那么小心' 表示 '不那么仔细'，与速度的快慢比较不符合；",
+   "id": "ext-j-eng-091"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Helen, stop talking with Peter. __ mom is waiting for him to go home.",
+   "a": [
+    "Your",
+    "His",
+    "My",
+    "Her"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. His。此题考察形容词性物主代词的使用。句子的主体是Helen，但由于提示‘在等他回家’指向Peter，因此应使用与Peter对应的形容词性物主代词。根据选项‘他的’为‘His’，符合句意，即Peter的母亲。因此，正确答案为B. 他的。",
+   "id": "ext-j-eng-092"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "__ significant contributions the teachers are making! Let's show our respect for them.",
+   "a": [
+    "How",
+    "What a",
+    "What",
+    "What an"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. What。首先，明确题目涉及感叹句的构成。感叹句主要由'how'和'what'引导。'How'引导的感叹句结构通常是'How + 形容词/副词 + 主语 + 谓语'，用来强调程度或者状态。",
+   "id": "ext-j-eng-093"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "It's surprising that I haven't found my key __.",
+   "a": [
+    "anywhere",
+    "somewhere",
+    "everywhere",
+    "nowhere"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. anywhere。首先判断句子为肯定句还是否定句，原句中含有'haven't'，为否定句。根据空格之后的'found my key'，可以确定需要填入某个表地点的副词。",
+   "id": "ext-j-eng-094"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "These massive treasure ships were large enough to transport 25,000 people __ vast amounts of goods.",
+   "a": [
+    "without",
+    "besides",
+    "except",
+    "unlike"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. besides。本题考查介词的词义辨析。句子的结构提示我们需要一个能表示“除了……还……”的介词。选项A的'without'意味着“没有”，通常表示缺乏某物；选项C的'except'意为“除……之外”，表示排除在外的含义；选项D的'unlike'表示“不像”。",
+   "id": "ext-j-eng-095"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "It is clear that big cities need more schools, buses, and hospitals. They also need fresh clean water and better public __.",
+   "a": [
+    "services",
+    "problems",
+    "adventures",
+    "decisions"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. services。句意分析：此句表述大城市需要更多基础设施和资源，包括清洁的淡水和更好的公共__。词汇辨析：选项A '服务'（services）符合语境需求，选项B '问题'（problems）与需要更好的不符，选项C '冒险'（adventures）与文意无关，选项D '决策'（decisions）也不符合文意需求。",
+   "id": "ext-j-eng-096"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "You are writing a letter to your father. I am writing a letter to my father, __.",
+   "a": [
+    "to",
+    "too",
+    "all",
+    "also"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. too。这道题的核心是根据句意和副词的用法来选择正确的选项。两个句子的意思都表示在写信给父亲，目的是找到一个表示'也'的副词。从语法规则看，'too'常放在肯定句末尾表示'也'，而'also'一般放在句中；'all'意思是'全部'；'to'是介词，表示方向。因此，'too'是唯一正确的选项，可以出现在句尾表示'也'。",
+   "id": "ext-j-eng-097"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Without computers, it would be __ for us to quickly learn about distant events.",
+   "a": [
+    "unlikely",
+    "easy",
+    "fantastic",
+    "impossible"
+   ],
+   "k": 3,
+   "difficulty": 3,
+   "tip": "答案：D. impossible。根据句子的上下文，'In the absence of computers' 暗示了一个没有计算机的情况。这个句子想表达的是，在没有计算机的帮助下，我们很难或不可能快速得知远方发生的事件。因此，我们需要在四个选项中，选择一个与 '不可能' 相关的词。",
+   "id": "ext-j-eng-098"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I passed __ a gate and started to climb the mountain.",
+   "a": [
+    "over",
+    "through",
+    "above",
+    "across"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. through。根据句意 '我通过一扇门，然后开始爬山'。介词 'through' 表示穿过某个空间或区域，这符合 '通过一扇门' 的场景。其他选项中，'over' 表示从上方越过，'above' 表示在某物的上方，'across' 表示穿过某物的表面，均不符合描述。因此，选择 'through'，答案为B。",
+   "id": "ext-j-eng-099"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Do you agree __ his idea?—Yes, I think it’s very good.",
+   "a": [
+    "with",
+    "in",
+    "of",
+    "at"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. with。首先，分析句意：问句询问是否赞同某人的观点，回答表示肯定并认为该观点很好。关键词'赞同'常与'with'搭配，用于表示对某人观点的认同。选项中，A项'with' 表示和某人一起，适用于此句；B项'in' 通常指在某地；C项'of' 表示所属关系；D项'at' 指某个特定时间或地点。根据搭配习惯，正确答案为A。",
+   "id": "ext-j-eng-100"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—China’s high-speed railway __ is leading the world. —That’s right. It is moving further into the world.",
+   "a": [
+    "environment",
+    "technology",
+    "population"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. technology。本题主要考查名词辨析。根据对话首句内容，空缺处应填入一个名词，表示中国在某个特定领域处于世界领先地位。选项B的'技术'（technology）与上下文匹配；选项A的'环境'（environment）和选项C的'人口'（population）均不符合语境。",
+   "id": "ext-j-eng-101"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "If you want to travel around the world, you’d better study English well. Because it is __ used in the world.",
+   "a": [
+    "hardly",
+    "lately",
+    "widely"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. widely。首先明确题目类型为词汇选择题，题干中的关键信息是'如果你想环游世界，最好学好英语。因为它在世界上被__使用。' 根据题干，我们需要选择一个副词来修饰动词 '使用'，表示英语在世界上的使用程度。",
+   "id": "ext-j-eng-102"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Hi, Mom is a moving film. It has been on for several months in the __.",
+   "a": [
+    "library",
+    "cinema",
+    "bank",
+    "museum"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. cinema。首先，根据句意'《你好，李焕英》是一部感人至深的影片。它已经在某个地方上映了好几个月。'我们可以推断出这个地方是播放电影的场所。接着分析选项：图书馆 (library)、电影院 (cinema)、银行 (bank) 和博物馆 (museum)。显然，电影上映的地方是电影院，而不会在图书馆、银行或博物馆。",
+   "id": "ext-j-eng-103"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "— What do you think is the most useful invention? — It is, __ doubt, the computer.",
+   "a": [
+    "without",
+    "against",
+    "absolutely",
+    "no"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. without。关键在于选择合适的词语填空，句子的意思是毫无疑问电脑是最有用的发明。对比其他选项，'毫无疑问'是常见短语，意为“毫无疑问”，符合题意。因此正确答案是A选项。",
+   "id": "ext-j-eng-104"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Look! There’s a red pen on the desk. Is it __?—No, it isn’t. My pen is here. It’s blue.",
+   "a": [
+    "his",
+    "yours",
+    "mine"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. yours。此题考查代词辨析。对话中的问答部分提供了明确的线索：一方问笔是否是对方的(你的)，另一方答复自己的笔在这里(我的)，并指出它是蓝色的，这排除了选项A(他的)和C(我的)。答案应选B(你的)来表示“你的”。因此，正确答案是B。",
+   "id": "ext-j-eng-105"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Do you feel like moving to Mars? —Sure. I’m in no __ that life on Mars would be interesting.",
+   "a": [
+    "doubt",
+    "hurry",
+    "way",
+    "agreement"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. doubt。根据句意：'你愿意搬到火星生活吗？—当然。我对火星上的生活将会很有趣这一点毫无__。' 我们需要关注的是填空部分的表达，突显'我确信'或'毫无疑问'的意思。",
+   "id": "ext-j-eng-106"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "For Mike, the price is __ important factor when he shops for jeans. He cares even more about the shape and the size of the pockets.",
+   "a": [
+    "the least",
+    "the less",
+    "the most",
+    "the more"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. the least。根据题干，Mike在购买牛仔裤时认为价格并不是最重要的因素，而是更在意牛仔裤的版型和口袋的大小。因此，我们需要在四个选项中选择一个能表示'最不重要的'意思的形容词最高级。",
+   "id": "ext-j-eng-107"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Losing ___ is more serious than losing wealth. Therefore, we should take good care of our bodies.",
+   "a": [
+    "happiness",
+    "health",
+    "excuse",
+    "hope"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. health。【分析】根据句子的意思，失去健康比失去财富更加严重，因此我们应当好好照顾自己的身体。选项A '幸福'、C '借口'、D '希望'均不符合句子的意思。最适合填入空格的是选项B '健康'，因为健康是最重要的，只有健康了，我们才有能力去创造和享受财富。所以答案选B。",
+   "id": "ext-j-eng-108"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "We are proud that the Chinese People’s Volunteers Army won the final __ over the enemies in the Korean War in 1953.",
+   "a": [
+    "support",
+    "honor",
+    "victory"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. victory。首先根据句意，我们知道这是在谈论朝鲜战争，而且提到了‘最终……敌人’，这表明中国人民志愿军在战争中有了明确的成果。接下来分析选项：A项支持意为‘support’，B项荣誉意为‘honor’，C项胜利意为‘victory’。",
+   "id": "ext-j-eng-109"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "The man can use __ hand to play the piano and __ hand to beat the drum simultaneously.",
+   "a": [
+    "one; the other",
+    "one; it",
+    "first; second",
+    "one; another"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. one; the other。题干中表述了一个人同时完成两种动作，各使用不同的手。这类情况通常需要用英文表达'一只手...另一只手...'。在英文中，描述两个中的一个和另一个时，常使用'one... the other...'。选项B的'it'不能准确表达两个独立，但相关联的主体；选项C's first; second'也不适用于这种情境；",
+   "id": "ext-j-eng-110"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "If you plan to fly to London, you should __ a plane ticket early online.",
+   "a": [
+    "find",
+    "book",
+    "order",
+    "look"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. book。首先，根据常识可以判断，乘坐飞机去某地通常需要提前获得机票。选项A、B、C和D分别是find、book、order、look。接下来，分析每个选项的含义：find意为'发现'，并不涉及预定或购买过程；book意为'预订'，常用于像机票或酒店这样需要提前保留的服务；order常用于点餐或订购特定的商品，一般不用于机票；",
+   "id": "ext-j-eng-111"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "You should __ hard starting now, __ you might not pass the exam.",
+   "a": [
+    "working; or",
+    "work; and",
+    "working; and",
+    "work; or"
+   ],
+   "k": 3,
+   "difficulty": 3,
+   "tip": "答案：D. work; or。本题考查情态动词和连词的辨析。首先，结构'should do sth'意为'应该做某事'，这里表示从现在开始你应该努力，故应选用'do'的原形，排除掉A和C选项。",
+   "id": "ext-j-eng-112"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I’ve been to New York and Los Angeles, but I don’t like __ city very much.",
+   "a": [
+    "both",
+    "either",
+    "every",
+    "neither"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. either。本题考查代词的辨析使用。根据句意“我去过纽约和洛杉矶，但这两座城市我都不是很喜欢。”可知，需要填入一个表达否定意义的代词。选项A 'both' 表示“两者都”，常用于肯定句；选项B 'either' 在否定句中使用，表示“任何一个”；选项C 'every' 意为“每一个”，通常用于复数概念；",
+   "id": "ext-j-eng-113"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "__ excellent suggestions the elderly gentleman offered us!",
+   "a": [
+    "What a",
+    "What",
+    "How a",
+    "How"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. What。首先理解句意：“那位老人给了我们多么好的建议啊!”。接着确定我们需要使用感叹句的结构。由于'suggestions'是不可数名词，我们选择正确的感叹句构成：“What + 形容词 + 不可数名词 + 主语 + 谓语！”。",
+   "id": "ext-j-eng-114"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Tom has no interest in reading the book. There is __ in it.",
+   "a": [
+    "nothing interesting",
+    "interesting nothing",
+    "something interesting"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. nothing interesting。首先确定句意：由'Tom has no interest in reading the book'可以推断，书里面应该没有吸引汤姆的内容。在英语中，当形容词用于修饰不定代词（somebody, something, anything, nothing等）时，通常是放在不定代词之后的。",
+   "id": "ext-j-eng-115"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "If we take exercise every day, we’ll be full of __.",
+   "a": [
+    "humor",
+    "energy",
+    "talent"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. energy。首先，明确题干意思是说，如果我们每天锻炼，我们会充满某种东西。根据常识判断，日常锻炼能增加的是能量或活力，而不是天赋或幽默。因此，结合选项分析，A选项'幽默'表示幽默，不是锻炼的直接结果。C选项'天赋'表示天赋，通常是与生俱来的，不是通过锻炼获得。B选项'能量'表示能量或活力，与日常锻炼后感到精力充沛的情境相匹配。",
+   "id": "ext-j-eng-116"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "A wolf is running __ the forest __ small animals. It wants to catch them for food.",
+   "a": [
+    "through; after",
+    "across; after",
+    "through; before",
+    "across; before"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. through; after。首先，考虑到'狼正在森林里奔跑'这一场景，'through'表示穿越空间，从内部通过，因此适合用在这里的句子中。其次，要抓住小动物，狼需要在小动物的后面，所以应使用'after'。综合这两点，正确答案是A. through; after。",
+   "id": "ext-j-eng-117"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—What are you up to, Mike? —I’m waiting for the __ of the wallet that I found on the street.",
+   "a": [
+    "writer",
+    "owner",
+    "winner",
+    "director"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. owner。通过问题\"Mike, what are you up to?\"询问迈克正在做的事情，迈克回答\"I’m waiting for the __ of the wallet that I found on the street.\" 根据迈克所说的话，我们知道他在等待某个人，而这个人与他在街上找到的钱包有关。",
+   "id": "ext-j-eng-118"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Last night, we enjoyed the Beijing Opera __ your brother. What’s wrong with him?",
+   "a": [
+    "besides",
+    "except",
+    "like"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. except。考查介词的用法。句子结构提示——Last night, we enjoyed the Beijing Opera __ your brother. What’s wrong with him? 表示这里存在一个排除或比较的关系。besides 表示'除此之外'，强调额外增加；",
+   "id": "ext-j-eng-119"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Don’t be angry with him. He has already tried __ best.",
+   "a": [
+    "one's",
+    "his",
+    "he",
+    "him"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. his。本题考查代词的使用。句子的主语是'他'，因此需要与主语一致的物主代词。在英语中，'try one's best'是固定搭配，表示'尽某人最大的努力'。'He'作为第三人称单数，其对应的物主代词是'his'，所以正确选项是B。'one's'是泛指的物主代词，不符合这里的具体指代，因此A不正确。",
+   "id": "ext-j-eng-120"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—What do you think of the art exhibition you visited with your parents last Sunday?—__ of them found it interesting, but I enjoyed it a lot.",
+   "a": [
+    "Both",
+    "Either",
+    "Neither",
+    "All"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. Neither。首先分析题干，根据问句提及的 'your parents' 指的是两个人，接着句子用 'but' 表转折说明提问者和父母的看法不同。因此，空缺部分应该表达两个人的共同态度。再来看选项，'Both' 表示两者都，'Either' 表示两者中任一方，'Neither' 则表示两者都不，'All' 通常用于三者或以上。",
+   "id": "ext-j-eng-121"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Learning English in a classroom is essential, but using English in a real __ can significantly improve your English skills.",
+   "a": [
+    "event",
+    "position",
+    "situation",
+    "condition"
+   ],
+   "k": 2,
+   "difficulty": 3,
+   "tip": "答案：C. situation。首先要理解句子的意思：在教室里学习英语很重要，但在真实的情景中使用英语可以显著提高你的英语技能。然后，对选项进行分析： 'event' 通常指 '事件' ，在此不适用； 'position' 意为 '位置' ，同样不适合当前句子； 'situation' 意为 '情况、情景' ，符合句子描述的实境使用环境；",
+   "id": "ext-j-eng-122"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "To save water, please don’t __ the tap running when you are not using water.",
+   "a": [
+    "stop",
+    "leave",
+    "let",
+    "make"
+   ],
+   "k": 1,
+   "difficulty": 3,
+   "tip": "答案：B. leave。在这道题中，我们需要选一个动词来表达“不要持续做某事”的意思。在选项中，'A. stop' 是'停止'的意思，但在这里不合适，因为它强调的是一个动作的终止；'C. let' 是'让'的意思，同样由于否定祈使句的语境也不合适； 'D. make' 是'制造'的意思，也不符合句意。",
+   "id": "ext-j-eng-123"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—I think some online eating shows waste a lot of food. —I do agree with you. The government should make laws to __ food waste.",
+   "a": [
+    "prevent",
+    "permit",
+    "produce",
+    "purchase"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "答案：A. prevent。根据对话内容，第一位说话者认为一些网络吃播节目浪费了很多食物。第二位说话者表示认同，并提到政府应该制定法规来应对这一问题。我们需要在选项中选择一个最合适的动词填空。prevent意为'防止'，符合语境中减少浪费的意图；permit意为'允许'，与减少浪费相违背；produce意为'生产'，与减少浪费无关；",
+   "id": "ext-j-eng-124"
+  }
+ ]
+}
