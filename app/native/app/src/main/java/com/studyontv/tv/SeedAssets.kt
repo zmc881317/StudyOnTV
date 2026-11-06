@@ -8,7 +8,7 @@ import org.json.JSONObject
 /**
  * 内置题库：
  * 1. assets/questions.json（来自 data/seed.json）：仅在题库为空时导入一次。
- * 2. assets/banks/*.json（来自 data/banks 中带 id 的年级题库）：按「文件名 + version」各导入一次，
+ * 2. assets/banks 目录下的 json（来自 data/banks 中带 id 的年级题库）：按「文件名 + version」各导入一次，
  *    新装和覆盖升级都会补进来；已存在的 id 不覆盖，保留家长修改。
  *    家长删除的内置题，在该题库文件提高 version 之前不会被重新导入。
  */
