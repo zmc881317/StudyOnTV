@@ -1,6 +1,8 @@
 package com.studyontv.tv
 
 import android.app.Activity
+import android.app.AlertDialog
+import android.widget.Toast
 import android.content.Intent
 import android.os.Bundle
 import android.text.InputType
@@ -96,6 +98,7 @@ class ParentActivity : Activity() {
         }
         button("权限设置") { startActivity(Intent(this, OnboardingActivity::class.java)) }
         button("修改密码") { form(true, true) }
+        button("切换学段") { chooseStage() }
         button("返回答题") { startActivity(Intent(this, MainActivity::class.java)); finish() }
         content.addView(controls)
         web = WebShell(this).create(Prefs.localBase(this) + "#/pair").also {
@@ -103,6 +106,22 @@ class ParentActivity : Activity() {
             content.addView(it, LinearLayout.LayoutParams(-1, 0, 1f))
         }
         setContentView(content)
+    }
+
+    /** 已通过家长验证后才会出现此入口 */
+    private fun chooseStage() {
+        val stages = LearnerStage.ALL
+        val current = stages.indexOf(DeviceRuntime.store.learnerStage())
+        val labels = stages.map { LearnerStage.label(it) + "（" + DeviceRuntime.store.countQuestions(it) + " 题）" }.toTypedArray()
+        AlertDialog.Builder(this)
+            .setTitle("选择孩子的学段")
+            .setSingleChoiceItems(labels, current) { dialog, which ->
+                DeviceRuntime.store.setLearnerStage(stages[which])
+                Toast.makeText(this, "已切换为" + LearnerStage.label(stages[which]), Toast.LENGTH_SHORT).show()
+                dialog.dismiss()
+            }
+            .setNegativeButton("取消", null)
+            .show()
     }
 
     override fun onStop() {

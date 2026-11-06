@@ -11,7 +11,7 @@
 <div class="bg"><div class="glow glow-a"></div><div class="glow glow-b"></div><div class="grain"></div></div>
 <header class="topbar">
   <div class="brand"><span class="logo"><i></i></span><span class="brand-text">题了个题</span></div>
-  <div class="topright"><span class="pill" id="topPill">正在连接…</span><span class="clock" id="clock"></span></div>
+  <div class="topright"><span class="stage-badge" id="stageBadge" title="切换学段需家长验证"></span><span class="pill" id="topPill">正在连接…</span><span class="clock" id="clock"></span></div>
 </header>
 <div class="update-tip" id="updateTip"><span class="update-text" id="updateText"></span><button class="update-btn" id="updateGo">更新</button><button class="update-close" id="updateClose">×</button></div>
 <main id="stage">
@@ -26,6 +26,9 @@
   </section>
   <section class="screen" id="screen-lock">
     <div class="lock-wrap"><div class="lock-badge" id="lockIcon"></div><h1 class="lock-title" id="lockTitle"></h1><p class="lock-desc" id="lockDesc"></p><div class="lock-actions" id="lockActions"></div><p class="lock-note" id="lockNote"></p></div>
+  </section>
+  <section class="screen" id="screen-stage">
+    <div class="lock-wrap"><div class="lock-badge">?</div><h1 class="lock-title">请选择你的学段</h1><p class="lock-desc">小学生做小学题，初中生进入初中题库<br>选择后如需更换，需要家长输入管理密码</p><div class="lock-actions stage-actions"><button class="btn btn-primary focusable stage-choice" data-action="stage-primary">我是小学生</button><button class="btn btn-primary focusable stage-choice stage-choice-junior" data-action="stage-junior">我是初中生</button></div></div>
   </section>
   <section class="screen" id="screen-pair">
     <div class="lock-wrap"><div class="qr-box" id="pairQr"></div><h1 class="lock-title">扫码<em>管理这台设备</em></h1><p class="lock-desc">家长设备连接同一 WiFi<br><b id="pairUrl"></b><br>打开后输入管理密码</p><button class="btn btn-primary focusable" data-action="quiz">返回答题</button></div>

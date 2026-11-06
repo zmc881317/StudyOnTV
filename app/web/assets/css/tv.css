@@ -446,3 +446,24 @@ html:not(.tv-device) .qr-box { box-shadow:none;border:1px solid #edece6; }
 .tv-device .glow,.tv-device .grain{display:none}.tv-device .bg{background:#08080a}
 
 #lockDesc{white-space:pre-line;max-height:32vh;overflow-y:auto}
+
+/* 学段：小学 / 初中 */
+.stage-badge { display:none; margin-right:1.2rem; padding:.5rem 1.2rem; border-radius:99px; font-size:1.4rem; font-weight:700; letter-spacing:.04em; cursor:pointer; }
+html.stage-primary .stage-badge, html.stage-junior .stage-badge { display:inline-block; }
+html.stage-primary .stage-badge { background:rgba(255,138,61,.16); color:#FFB27A; border:1px solid rgba(255,138,61,.45); }
+html.stage-junior .stage-badge { background:rgba(80,150,255,.16); color:#9CC3FF; border:1px solid rgba(80,150,255,.5); }
+html.stage-junior .crumb-main { color:#8DB7FF; }
+html.stage-junior .logo { background:#4C8DF6; }
+html.stage-junior .option.focused, html.stage-junior .option.selected { border-color:#6EA4FF; }
+html.stage-junior .glow-a { background:radial-gradient(circle, rgba(76,141,246,.28), transparent 70%); }
+.stage-actions .stage-choice { margin:0 1rem; min-width:20rem; }
+html:not(.tv-device) .stage-badge { font-size:13px; padding:7px 13px; margin-right:10px; }
+html:not(.tv-device).stage-primary .stage-badge { background:#fff2df; color:#9a6a2c; border-color:#f3cf9f; }
+html:not(.tv-device).stage-junior .stage-badge { background:#e9f1ff; color:#2f5fae; border-color:#b8cff5; }
+html:not(.tv-device).stage-junior .logo { background:#5b8fe6; }
+html:not(.tv-device).stage-junior .crumb-main { color:#4f78bd; }
+html:not(.tv-device).stage-junior .option.focused, html:not(.tv-device).stage-junior .option.selected { background:#f1f6ff; border-color:#9dbcf0; }
+html:not(.tv-device).stage-junior .option.focused .letter, html:not(.tv-device).stage-junior .option.selected .letter { background:#d9e6fb; color:#2f5fae; }
+html:not(.tv-device).stage-junior .btn-primary { background:#5b8fe6; }
+html:not(.tv-device).stage-junior .quiz-wrap { border-color:#dfe8f7; }
+html:not(.tv-device) .stage-actions .stage-choice { margin:0 8px 12px; min-width:180px; }

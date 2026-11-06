@@ -1,0 +1,714 @@
+{
+ "name": "初中英语（七年级—八年级上）",
+ "version": 1,
+ "items": [
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Where did you go on vacation?\n—I ______ to the beach.",
+   "a": [
+    "go",
+    "goes",
+    "went",
+    "going"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "问过去的事用一般过去时，go 的过去式是 went。",
+   "id": "jh-eng-001"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Did you buy anything special?\n—No, I ______.",
+   "a": [
+    "don't",
+    "didn't",
+    "haven't",
+    "wasn't"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "Did ...? 的否定回答用 No, I didn't.",
+   "id": "jh-eng-002"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—How often do you exercise?\n—______ a week.",
+   "a": [
+    "Twice times",
+    "Twice",
+    "Second",
+    "Two"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "How often 问频率，twice a week 一周两次。",
+   "id": "jh-eng-003"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "下列频度副词中，频率最高的是？",
+   "a": [
+    "hardly ever",
+    "usually",
+    "sometimes",
+    "always"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "always > usually > often > sometimes > hardly ever > never。",
+   "id": "jh-eng-004"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“hardly ever” 的意思是？",
+   "a": [
+    "经常",
+    "几乎从不",
+    "总是",
+    "有时"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "hardly ever = almost never。",
+   "id": "jh-eng-005"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Tom is ______ than his brother.",
+   "a": [
+    "tall",
+    "tallest",
+    "more tall",
+    "taller"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "than 表示比较，用比较级。",
+   "id": "jh-eng-006"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "This is the ______ movie theater in town.",
+   "a": [
+    "most good",
+    "good",
+    "best",
+    "better"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "the + 最高级，good → better → best。",
+   "id": "jh-eng-007"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "My sister is ______ than me.",
+   "a": [
+    "much outgoing",
+    "outgoinger",
+    "more outgoing",
+    "most outgoing"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "多音节形容词在前面加 more 构成比较级。",
+   "id": "jh-eng-008"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Which is the ______ of the three shirts?",
+   "a": [
+    "most cheap",
+    "cheapest",
+    "cheaper",
+    "cheap"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "三者或以上比较用最高级。",
+   "id": "jh-eng-009"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Lucy is as tall ______ her mother.",
+   "a": [
+    "than",
+    "as",
+    "like",
+    "so"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "as + 形容词原级 + as：和……一样。",
+   "id": "jh-eng-010"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I'm going to ______ an engineer when I grow up.",
+   "a": [
+    "am",
+    "be",
+    "being",
+    "is"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "be going to + 动词原形。",
+   "id": "jh-eng-011"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "There ______ more trees in the city in the future.",
+   "a": [
+    "is",
+    "are going to have",
+    "will have",
+    "will be"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "There will be ... 表示将来会有。",
+   "id": "jh-eng-012"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Will people use money in 100 years?\n—______",
+   "a": [
+    "Yes, they will.",
+    "Yes, they do.",
+    "Yes, they are.",
+    "Yes, it will."
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "Will ...? 用 will 回答，people 用 they 代替。",
+   "id": "jh-eng-013"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "How ______ milk do we need?",
+   "a": [
+    "long",
+    "many",
+    "much",
+    "often"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "milk 不可数，用 how much。",
+   "id": "jh-eng-014"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "How many ______ do we need?",
+   "a": [
+    "tomatoe",
+    "tomatos",
+    "tomato",
+    "tomatoes"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "以 o 结尾的 tomato、potato 复数加 -es。",
+   "id": "jh-eng-015"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Can you come to my party?\n—Sorry, I ______. I have to study for a test.",
+   "a": [
+    "must",
+    "don't",
+    "can",
+    "can't"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "拒绝邀请：Sorry, I can't. + 理由。",
+   "id": "jh-eng-016"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "If it ______ tomorrow, we will stay at home.",
+   "a": [
+    "rains",
+    "rained",
+    "rain",
+    "will rain"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "if 条件句「主将从现」：从句用一般现在时。",
+   "id": "jh-eng-017"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "If you go to the party, you ______ have a great time.",
+   "a": [
+    "are",
+    "did",
+    "do",
+    "will"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "主句用一般将来时。",
+   "id": "jh-eng-018"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I'm interested ______ music.",
+   "a": [
+    "at",
+    "for",
+    "on",
+    "in"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "be interested in 对……感兴趣。",
+   "id": "jh-eng-019"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Thanks ______ inviting me to your party.",
+   "a": [
+    "with",
+    "to",
+    "for",
+    "of"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "thanks for doing sth. 因……而感谢。",
+   "id": "jh-eng-020"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I enjoy ______ books in my free time.",
+   "a": [
+    "reading",
+    "read",
+    "reads",
+    "to read"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "enjoy doing sth. 喜欢做某事。",
+   "id": "jh-eng-021"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "We decided ______ to the Great Wall.",
+   "a": [
+    "go",
+    "to go",
+    "going",
+    "went"
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "decide to do sth. 决定做某事。",
+   "id": "jh-eng-022"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Let's ______ shopping this weekend.",
+   "a": [
+    "goes",
+    "go",
+    "going",
+    "to go"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "Let's + 动词原形。",
+   "id": "jh-eng-023"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I don't like this movie, and she doesn't like it, ______.",
+   "a": [
+    "also",
+    "too",
+    "either",
+    "neither"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "否定句中「也」用 either；肯定句用 too。",
+   "id": "jh-eng-024"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "There is only ______ water in the bottle.",
+   "a": [
+    "few",
+    "many",
+    "a few",
+    "a little"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "water 不可数，用 a little；a few 修饰可数名词。",
+   "id": "jh-eng-025"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“buy” 的过去式是？",
+   "a": [
+    "buyed",
+    "boughted",
+    "bought",
+    "brought"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "buy → bought；bring → brought。",
+   "id": "jh-eng-026"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“feel” 的过去式是？",
+   "a": [
+    "fall",
+    "fell",
+    "feeled",
+    "felt"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "feel → felt；fall → fell。",
+   "id": "jh-eng-027"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "How do you make a banana milk shake? First, ______ three bananas.",
+   "a": [
+    "drink",
+    "pour",
+    "peel",
+    "turn on"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "peel 剥皮；先把香蕉去皮。",
+   "id": "jh-eng-028"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“turn on” 的意思是？",
+   "a": [
+    "打开（电器）",
+    "转身",
+    "调低",
+    "关闭"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "turn on 打开；turn off 关掉。",
+   "id": "jh-eng-029"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“take care of” 的意思是？",
+   "a": [
+    "照顾",
+    "拿走",
+    "小心",
+    "关心天气"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "take care of = look after 照顾。",
+   "id": "jh-eng-030"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "I can't go to the movies. I have to ______ my little sister.",
+   "a": [
+    "look for",
+    "look like",
+    "look at",
+    "look after"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "look after 照顾；look for 寻找。",
+   "id": "jh-eng-031"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—Thank you very much.\n—______",
+   "a": [
+    "That's right.",
+    "Yes, please.",
+    "Me too.",
+    "You're welcome."
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "回应感谢：You're welcome. / Not at all.",
+   "id": "jh-eng-032"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Look! The children ______ soccer on the playground.",
+   "a": [
+    "will play",
+    "play",
+    "played",
+    "are playing"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "Look! 提示正在进行，用现在进行时。",
+   "id": "jh-eng-033"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Don't ______ in the classroom.",
+   "a": [
+    "eating",
+    "eat",
+    "eats",
+    "to eat"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "否定祈使句：Don't + 动词原形。",
+   "id": "jh-eng-034"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "This is ______ orange. ______ orange is on the table.",
+   "a": [
+    "an; The",
+    "a; An",
+    "an; A",
+    "a; The"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "orange 以元音音素开头用 an；特指用 the。",
+   "id": "jh-eng-035"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "—What time do you usually get up?\n—______",
+   "a": [
+    "For ten minutes.",
+    "At six thirty.",
+    "On Monday.",
+    "In the morning, yes."
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "What time 问具体时刻。",
+   "id": "jh-eng-036"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "My birthday is ______ October.",
+   "a": [
+    "in",
+    "of",
+    "at",
+    "on"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "在月份前用 in；在具体某一天前用 on。",
+   "id": "jh-eng-037"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“sheep” 的复数形式是？",
+   "a": [
+    "shoop",
+    "sheepes",
+    "sheeps",
+    "sheep"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "sheep、deer、fish（表示条数时）单复数同形。",
+   "id": "jh-eng-038"
+  },
+  {
+   "type": "boolean",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“children” 是 “child” 的复数形式。",
+   "a": [
+    "正确",
+    "错误"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "child → children（不规则变化）。",
+   "id": "jh-eng-039"
+  },
+  {
+   "type": "boolean",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "“good” 的比较级是 “gooder”。",
+   "a": [
+    "正确",
+    "错误"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "good/well → better → best。",
+   "id": "jh-eng-040"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Read: Lisa went to Hainan last summer. The weather was hot and sunny. She went swimming every day.\nHow was the weather in Hainan?",
+   "a": [
+    "Cold and windy.",
+    "Hot and sunny.",
+    "Rainy.",
+    "Cool and cloudy."
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "原文：The weather was hot and sunny.",
+   "id": "jh-eng-041"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Read: Lisa went to Hainan last summer. The weather was hot and sunny. She went swimming every day.\nWhat did Lisa do every day?",
+   "a": [
+    "She stayed at home.",
+    "She played basketball.",
+    "She went shopping.",
+    "She went swimming."
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "原文：She went swimming every day.",
+   "id": "jh-eng-042"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "Read: Tom is going to be a doctor. He is going to study medicine at university because he wants to help sick people.\nWhy does Tom want to be a doctor?",
+   "a": [
+    "Because he wants to help sick people.",
+    "Because doctors are rich.",
+    "Because he is sick.",
+    "Because his father is a doctor."
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "原文 because he wants to help sick people。",
+   "id": "jh-eng-043"
+  },
+  {
+   "type": "text",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "用所给词的适当形式填空：She ______ (visit) her grandparents last weekend.",
+   "answers": [
+    "visited"
+   ],
+   "difficulty": 2,
+   "tip": "last weekend 用一般过去时。",
+   "id": "jh-eng-044"
+  },
+  {
+   "type": "text",
+   "subject": "英语",
+   "level": "八年级上",
+   "q": "用所给词的适当形式填空：He is the ______ (funny) boy in our class.",
+   "answers": [
+    "funniest"
+   ],
+   "difficulty": 3,
+   "tip": "辅音字母 + y 结尾，变 y 为 i 再加 -est。",
+   "id": "jh-eng-045"
+  }
+ ]
+}

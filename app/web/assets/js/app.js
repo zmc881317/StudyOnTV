@@ -2,7 +2,7 @@
   'use strict';
   var $ = function (id) { return document.getElementById(id); };
   var all = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
-  var state = { screen: '', round: null, config: {}, learning: {}, busy: false, selected: [], version: 0, awaiting: false, reviewed: false, review: null, draft: null };
+  var state = { stage: '', stageLabel: '', screen: '', round: null, config: {}, learning: {}, busy: false, selected: [], version: 0, awaiting: false, reviewed: false, review: null, draft: null };
   var toastTimer, nextTimer, taps = 0, lastTap = 0, upTaps = 0, lastUpTap = 0;
   function nativeCall(name, args) {
     var bridge = window.SOTVNative;
@@ -45,9 +45,37 @@
     var left = Math.max(0, (c.roundsPerDay || 3) - (st.roundsDoneToday || 0));
     $('topPill').textContent = (st.remainingSeconds > 0 ? '可用 ' + Math.ceil(st.remainingSeconds / 60) + ' 分钟 · ' : '') + '还剩 ' + left + ' 组' + (st.extraPool > 0 ? ' · 加练池 ' + st.extraPool + ' 题' : '');
   }
+  function applyStage(stage, label) {
+    state.stage = stage || ''; state.stageLabel = label || (stage === 'junior' ? '初中' : stage === 'primary' ? '小学' : '');
+    var root = document.documentElement;
+    root.classList.remove('stage-primary'); root.classList.remove('stage-junior');
+    if (state.stage) root.classList.add('stage-' + state.stage);
+    $('stageBadge').textContent = state.stageLabel ? (state.stage === 'junior' ? '初中生 · 初中题库' : '小学生 · 小学题库') : '';
+    document.querySelector('.brand-text').textContent = state.stage === 'junior' ? '题了个题 · 初中' : state.stage === 'primary' ? '题了个题 · 小学' : '题了个题';
+    document.title = (state.stage === 'junior' ? '初中 · ' : state.stage === 'primary' ? '小学 · ' : '') + '题了个题 · 先学再看';
+  }
+  function chooseStage() {
+    state.round = null;
+    show('stage');
+    focusDefault();
+  }
+  function pickStage(stage) {
+    if (state.busy) return;
+    state.busy = true;
+    request('/api/quiz/stage', { stage: stage }, function (error, result) {
+      state.busy = false;
+      if (error) { toast(error); return; }
+      applyStage(result.learnerStage || stage, result.learnerStageLabel);
+      loadState(function () { handleStart(null, result); });
+    });
+  }
   function loadState(callback) {
     request('/api/state', null, function (error, result) {
-      if (!error) { state.config = result.config; state.learning = result.learning; pill(); }
+      if (!error) {
+        state.config = result.config; state.learning = result.learning; pill();
+        var info = result.learnerStage || {};
+        if (info.stage !== state.stage) applyStage(info.stage, info.label);
+      }
       if (callback) callback(error, result);
     });
   }
@@ -56,6 +84,10 @@
     state.busy = true;
     request('/api/quiz/start', {}, function (error, result) {
       state.busy = false;
+      handleStart(error, result);
+    });
+  }
+  function handleStart(error, result) {
       if (error) {
         show('quiz'); $('qText').textContent = error;
         $('qOptions').innerHTML = '<button class="btn btn-primary focusable" data-action="retry">重试</button>';
@@ -63,6 +95,8 @@
       }
       state.learning = result.status || state.learning;
       pill();
+      if (result.chooseStage) return chooseStage();
+      if (result.learnerStage && result.learnerStage !== state.stage) applyStage(result.learnerStage, result.learnerStageLabel);
       if (result.pending) return pending(result.reviewId);
       if (result.reviewed) return reviewed(result);
       state.awaiting = false; state.reviewed = false;
@@ -77,7 +111,6 @@
       }
       state.round = result;
       show('quiz'); renderQuestion();
-    });
   }
   function renderQuestion() {
     var round = state.round, item = round.question;
@@ -86,7 +119,7 @@
     $('qText').textContent = item.q;
     $('qIndex').textContent = round.mode === 'streak' ? round.streak : round.mode === 'practice' ? round.answered + 1 : Math.min(round.answered + 1, round.target);
     $('qTotal').textContent = round.mode === 'practice' ? '题' : '/ ' + round.target;
-    $('qMode').textContent = (round.extra ? '加练任务' : round.mode === 'streak' ? '连续答对' : round.mode === 'practice' ? '自由练习' : '本组任务') + ' · ' + new Array((item.difficulty || 2) + 1).join('★');
+    $('qMode').textContent = (state.stageLabel ? state.stageLabel + ' · ' : '') + (item.subject ? item.subject + ' · ' : '') + (round.extra ? '加练任务' : round.mode === 'streak' ? '连续答对' : round.mode === 'practice' ? '自由练习' : '本组任务') + ' · ' + new Array((item.difficulty || 2) + 1).join('★');
     $('qPool').textContent = round.extraPool > 0 ? '加练池还剩 ' + round.extraPool + ' 题' : '';
     $('qDots').textContent = round.mode === 'streak' ? '连续答对 ' + round.streak + ' 题' : '';
     var options = $('qOptions'); options.innerHTML = '';
@@ -255,6 +288,8 @@
     if (action === 'voice' || action === 'handwrite') nativeCall('answerInput', [action === 'voice']);
     if (action === 'clear-drawing') { state.draft.drawing = ''; renderQuestion(); }
     if (action === 'retry') start();
+    if (action === 'stage-primary') pickStage('primary');
+    if (action === 'stage-junior') pickStage('junior');
     if (action === 'home') nativeCall('exitToLauncher');
     if (action === 'quiz') { if (state.screen === 'pair') nativeCall('backToQuiz'); else start(); }
   }
@@ -269,6 +304,7 @@
   }
   function boot() {
     show('quiz');
+    $('stageBadge').addEventListener('click', function () { toast('切换学段需要家长验证'); nativeCall('openParent'); });
     document.querySelector('.brand').addEventListener('click', function () {
       var now = Date.now(); taps = now - lastTap < 900 ? taps + 1 : 1; lastTap = now;
       if (taps >= 5) { taps = 0; nativeCall('openParent'); }
@@ -299,9 +335,10 @@
     window.setInterval(function () {
       $('clock').textContent = new Date().toTimeString().slice(0, 5);
       if (state.busy || state.reviewed || state.screen === 'pair') return;
-      var version = state.config.version;
+      var version = state.config.version, stageBefore = state.stage;
       loadState(function (error) {
         if (error) return;
+        if (stageBefore !== state.stage && (state.screen === 'quiz' || state.screen === 'stage')) { start(); return; }
         if (state.awaiting) { start(); return; }
         if (state.screen === 'lock' && state.lockReason !== state.learning.reason) {
           if (!state.learning.reason) start(); else lock(state.learning.reason);

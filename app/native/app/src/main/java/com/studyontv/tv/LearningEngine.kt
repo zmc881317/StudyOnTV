@@ -90,8 +90,12 @@ class LearningEngine(private val store: LocalStore) {
     private fun active(): JSONObject? = store.get("active_round").takeIf { it.isNotEmpty() }?.let { JSONObject(it) }
 
     private fun nextQuestion(round: JSONObject) {
-        val bank = store.questions(limit = 2, spaced = store.config().optBoolean("spacedRepetitionEnabled"))
-        require(bank.length() > 0) { "题库为空，请由家长添加题目" }
+        val stage = store.learnerStage()
+        val bank = store.questions(limit = 2, spaced = store.config().optBoolean("spacedRepetitionEnabled"), stage = stage)
+        require(bank.length() > 0) {
+            if (stage.isEmpty()) "题库为空，请由家长添加题目"
+            else "${LearnerStage.label(stage)}题库为空，请家长添加${LearnerStage.label(stage)}题目或切换学段"
+        }
         val last = round.optJSONObject("question")?.optString("id")
         var question = bank.getJSONObject(0)
         for (i in 0 until bank.length()) {
@@ -106,7 +110,9 @@ class LearningEngine(private val store: LocalStore) {
         val question = copy.getJSONObject("question")
         listOf("k", "answers", "correctIndices", "tip", "modelAnswer", "rubric").forEach { question.remove(it) }
         copy.remove("rules")
+        val stage = store.learnerStage()
         return copy.put("extraPool", number("extra_pool")).put("status", status())
+            .put("learnerStage", stage).put("learnerStageLabel", LearnerStage.label(stage))
     }
 
     @Synchronized
@@ -124,6 +130,7 @@ class LearningEngine(private val store: LocalStore) {
             return JSONObject().put("watching", true).put("status", st)
         var round = active()
         if (round?.has("pendingReview") == true) return JSONObject().put("pending", true).put("reviewId", round.getString("pendingReview")).put("status", st)
+        if (store.learnerStage().isEmpty()) return JSONObject().put("chooseStage", true).put("status", st)
         if (round != null && round.optInt("answered") == 0 && round.getJSONObject("rules").optInt("version") != c.optInt("version")) round = null
         if (round == null || round.optString("mode") != c.getString("playMode")) {
             round = JSONObject().put("id", UUID.randomUUID().toString()).put("mode", c.getString("playMode"))

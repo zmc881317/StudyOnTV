@@ -116,9 +116,11 @@ class LanServer(
             return if (session == null) json(out, 401, err("管理密码错误，连续错误 5 次后需等待一分钟"))
                 else json(out, 200, JSONObject().put("token", session).put("expiresIn", 43200))
         }
+        var parentAccess = false
         if (path.startsWith("/api/") && path != "/api/hello") {
             val adminKey = headers["x-admin-key"]
-            val authorized = deviceAccess || AdminAuth.valid(token) || (adminKey != null && AdminAuth.verify(context, adminKey))
+            parentAccess = AdminAuth.valid(token) || (adminKey != null && AdminAuth.verify(context, adminKey))
+            val authorized = deviceAccess || parentAccess
             if (!authorized) return json(out, 401, err("unauthorized"))
         }
 
@@ -141,6 +143,7 @@ class LanServer(
                     .put("config", store.config())
                     .put("today", store.todayStats())
                     .put("questions", store.countQuestions())
+                        .put("learnerStage", store.stageInfo())
                         .put("roundsDoneToday", store.roundsDoneToday())
                         .put("repetition", store.repetitionStats())
                         .put("learning", DeviceRuntime.learning.status()))
@@ -149,8 +152,16 @@ class LanServer(
                 val input = try { JSONObject(body) } catch (e: Exception) { return json(out, 200, err("bad_json")) }
                 return json(out, 200, JSONObject().put("config", store.saveConfig(input)))
             }
+            path == "/api/stage" && method == "GET" -> return json(out, 200, store.stageInfo())
+            path == "/api/stage" && (method == "PUT" || method == "POST") -> {
+                // 切换学段需要家长密码（令牌或 X-Admin-Key）；设备令牌只能在尚未选择时设置
+                if (!parentAccess && store.learnerStage().isNotEmpty()) return json(out, 403, err("parent_required"))
+                val input = try { JSONObject(body) } catch (e: Exception) { return json(out, 200, err("bad_json")) }
+                store.setLearnerStage(input.optString("stage"))
+                return json(out, 200, store.stageInfo().put("ok", true))
+            }
             path == "/api/questions" && method == "GET" -> {
-                val items = store.questions(q["subject"], q["level"], q["limit"]?.toIntOrNull() ?: 500)
+                val items = store.questions(q["subject"], q["level"], q["limit"]?.toIntOrNull() ?: 500, stage = LearnerStage.normalize(q["stage"]))
                 return json(out, 200, JSONObject().put("items", items))
             }
             path == "/api/questions" && method == "POST" -> {
@@ -193,6 +204,12 @@ class LanServer(
             }
             path == "/api/quiz/start" && method == "POST" -> {
                 if (!deviceAccess) return json(out, 403, err("device_only"))
+                return json(out, 200, DeviceRuntime.learning.start())
+            }
+            path == "/api/quiz/stage" && method == "POST" -> {
+                if (!deviceAccess) return json(out, 403, err("device_only"))
+                if (store.learnerStage().isNotEmpty()) return json(out, 403, JSONObject().put("error", "parent_required").put("message", "切换学段需要家长验证"))
+                store.setLearnerStage(JSONObject(body).optString("stage"))
                 return json(out, 200, DeviceRuntime.learning.start())
             }
             path == "/api/quiz/review" && method == "POST" -> {
@@ -276,7 +293,7 @@ class LanServer(
     }
 
     private fun reason(code: Int) = when (code) {
-        200 -> "OK"; 204 -> "No Content"; 401 -> "Unauthorized"
+        200 -> "OK"; 204 -> "No Content"; 401 -> "Unauthorized"; 403 -> "Forbidden"
         404 -> "Not Found"; 405 -> "Method Not Allowed"; else -> "OK"
     }
 

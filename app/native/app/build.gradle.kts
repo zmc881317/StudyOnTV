@@ -80,12 +80,14 @@ dependencies {
     // 刻意零第三方依赖：包体小、Android 5.0 兼容性最好
 }
 
-// 把网页和题库同步进 assets（仓库里只维护 app/web、admin、data/seed.json 三份源）
+// 把网页和题库同步进 assets（仓库里只维护 app/web、admin、data/seed.json、data/banks 几份源）
 val repoRoot = rootProject.projectDir.parentFile.parentFile
 val syncWebAssets by tasks.registering(Sync::class) {
     from(File(repoRoot, "app/web")) { into("web") }
     from(File(repoRoot, "admin")) { into("admin") }
     from(File(repoRoot, "data/seed.json")) { rename { "questions.json" } }
+    // 带 id 的年级题库随 APK 内置（小学三年级 + 初中），首次启动/升级时按 version 导入
+    from(File(repoRoot, "data/banks")) { into("banks"); include("grade3*.json", "junior-*.json") }
     from(File(repoRoot, "shared/katex")) { into("web/assets/vendor/katex") }
     from(File(repoRoot, "shared/math.js")) { into("web/assets/js") }
     into(layout.projectDirectory.dir("src/main/assets"))

@@ -80,6 +80,7 @@ class OnboardingActivity : Activity() {
         mode.addView(modeTitle)
         mode.addView(modeDescription, LinearLayout.LayoutParams(-1, -2).apply { topMargin = dp(4) })
         content.addView(mode, LinearLayout.LayoutParams(-1, -2).apply { topMargin = dp(18); bottomMargin = dp(16) })
+        content.addView(stageCard(), LinearLayout.LayoutParams(-1, -2).apply { bottomMargin = dp(12) })
 
         val cards = listOf(
             permission("悬浮窗", "到时间后显示学习页", android.R.drawable.ic_menu_view, { GateOverlay.canDraw(this) }) {
@@ -113,6 +114,38 @@ class OnboardingActivity : Activity() {
         })
         if (tv) next.requestFocus()
         refresh()
+    }
+
+    private lateinit var stageStatus: TextView
+
+    private fun stageCard(): View {
+        val card = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER_VERTICAL
+            setPadding(dp(16), dp(16), dp(16), dp(16))
+            background = shape(if (tv) 0xFF171B21.toInt() else 0xFFFFFFFF.toInt(), border)
+        }
+        val copy = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
+        copy.addView(text("孩子的学段", 16f, bold = true))
+        copy.addView(text("小学生只抽小学题，初中生进入初中题库。之后切换需要家长验证。", 12f, muted), LinearLayout.LayoutParams(-1, -2).apply { topMargin = dp(4) })
+        stageStatus = text("", 12f, muted)
+        copy.addView(stageStatus, LinearLayout.LayoutParams(-1, -2).apply { topMargin = dp(6) })
+        card.addView(copy, LinearLayout.LayoutParams(0, -2, 1f))
+        card.addView(button("小学") { chooseStage(LearnerStage.PRIMARY) }, LinearLayout.LayoutParams(dp(68), dp(40)).apply { leftMargin = dp(8) })
+        card.addView(button("初中") { chooseStage(LearnerStage.JUNIOR) }, LinearLayout.LayoutParams(dp(68), dp(40)).apply { leftMargin = dp(8) })
+        updateStage()
+        return card
+    }
+
+    private fun chooseStage(stage: String) {
+        DeviceRuntime.store.setLearnerStage(stage)
+        updateStage()
+        Toast.makeText(this, "已设为" + LearnerStage.label(stage), Toast.LENGTH_SHORT).show()
+    }
+
+    private fun updateStage() {
+        val stage = DeviceRuntime.store.learnerStage()
+        stageStatus.text = if (stage.isEmpty()) "未选择：孩子首次答题时自行选择" else "当前：" + LearnerStage.label(stage) + "（" + DeviceRuntime.store.countQuestions(stage) + " 题可用）"
+        stageStatus.setTextColor(if (stage.isEmpty()) muted else if (tv) 0xFFA6C892.toInt() else 0xFF6B8D57.toInt())
     }
 
     private fun permission(title: String, description: String, icon: Int, enabled: (() -> Boolean)?, action: () -> Unit): View {

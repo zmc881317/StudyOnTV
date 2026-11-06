@@ -165,11 +165,15 @@ class LocalStore(context: Context) : SQLiteOpenHelper(context, "studyontv.db", n
         return next
     }
 
-    fun questions(subject: String? = null, level: String? = null, limit: Int = 200, spaced: Boolean = false): JSONArray {
+    fun questions(subject: String? = null, level: String? = null, limit: Int = 200, spaced: Boolean = false, stage: String? = null): JSONArray {
         val where = StringBuilder("enabled=1")
         val args = mutableListOf<String>()
         if (!subject.isNullOrEmpty()) { where.append(" AND subject=?"); args.add(subject) }
         if (!level.isNullOrEmpty()) { where.append(" AND level=?"); args.add(level) }
+        if (!stage.isNullOrEmpty()) {
+            val (clause, stageArgs) = LearnerStage.sqlFilter(stage)
+            if (clause.isNotEmpty()) { where.append(" AND ").append(clause); args.addAll(stageArgs) }
+        }
         val out = JSONArray()
         val source = if (spaced) "questions LEFT JOIN question_progress progress ON questions.id=progress.qid" else "questions"
         val order = if (spaced) "CASE WHEN progress.due_at<=${System.currentTimeMillis()} THEN 0 WHEN progress.qid IS NULL THEN 1 ELSE 2 END, progress.due_at ASC, RANDOM()" else "RANDOM()"
@@ -183,6 +187,8 @@ class LocalStore(context: Context) : SQLiteOpenHelper(context, "studyontv.db", n
                     .put("k", c.getInt(c.getColumnIndexOrThrow("answer")))
                     .put("difficulty", c.getInt(c.getColumnIndexOrThrow("difficulty")))
                     .put("tip", c.getString(c.getColumnIndexOrThrow("tip")) ?: "")
+                    .put("subject", c.getString(c.getColumnIndexOrThrow("subject")) ?: "")
+                    .put("level", c.getString(c.getColumnIndexOrThrow("level")) ?: "")
                 if (!item.has("type")) item.put("type", "single")
                 out.put(item)
             }
@@ -190,8 +196,38 @@ class LocalStore(context: Context) : SQLiteOpenHelper(context, "studyontv.db", n
         return out
     }
 
-    fun countQuestions(): Int = readableDatabase.rawQuery("SELECT COUNT(*) FROM questions WHERE enabled=1", null).use {
-        if (it.moveToFirst()) it.getInt(0) else 0
+    fun countQuestions(stage: String? = null): Int {
+        val (clause, args) = LearnerStage.sqlFilter(stage ?: "")
+        val sql = "SELECT COUNT(*) FROM questions WHERE enabled=1" + if (clause.isEmpty()) "" else " AND $clause"
+        return readableDatabase.rawQuery(sql, args.toTypedArray()).use { if (it.moveToFirst()) it.getInt(0) else 0 }
+    }
+
+    fun hasQuestion(id: String): Boolean = readableDatabase.rawQuery("SELECT 1 FROM questions WHERE id=?", arrayOf(id)).use { it.moveToFirst() }
+
+    /** 学段：primary 小学 / junior 初中；空字符串表示尚未选择。 */
+    fun learnerStage(): String = LearnerStage.normalize(get("learner_stage"))
+
+    /** 设置学段。会结束尚未答题、且没有待批改作答的当前任务，让新学段立即生效。 */
+    fun setLearnerStage(value: String): String {
+        val stage = LearnerStage.normalize(value)
+        require(stage.isNotEmpty()) { "学段只能是 primary（小学）或 junior（初中）" }
+        if (stage == learnerStage()) return stage
+        set("learner_stage", stage)
+        val active = get("active_round")
+        if (active.isNotEmpty()) {
+            val round = try { JSONObject(active) } catch (e: Exception) { null }
+            if (round == null || (!round.has("pendingReview") && round.optInt("answered") == 0)) set("active_round", "")
+        }
+        logEvent("learner_stage", JSONObject().put("stage", stage))
+        return stage
+    }
+
+    fun stageInfo(): JSONObject {
+        val stage = learnerStage()
+        return JSONObject().put("stage", stage).put("label", LearnerStage.label(stage))
+            .put("chosen", stage.isNotEmpty())
+            .put("counts", JSONObject().put(LearnerStage.PRIMARY, countQuestions(LearnerStage.PRIMARY))
+                .put(LearnerStage.JUNIOR, countQuestions(LearnerStage.JUNIOR)).put("all", countQuestions()))
     }
 
     fun upsertQuestion(item: JSONObject): String {

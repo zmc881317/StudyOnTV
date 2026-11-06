@@ -1,0 +1,642 @@
+{
+ "name": "三年级英语（人教PEP 句型·字母·情景）",
+ "version": 1,
+ "items": [
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "下午见到朋友，应该说：",
+   "a": [
+    "Good afternoon!",
+    "Good morning!",
+    "Goodbye!",
+    "Good night!"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "afternoon 下午；morning 早上；Good night 晚安。",
+   "id": "g3en-001"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "向别人介绍自己的名字，可以说：",
+   "a": [
+    "What's your name?",
+    "My name is Mike.",
+    "Your name is Mike.",
+    "His name is Mike."
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "介绍自己用 My name is ... 或 I'm ...",
+   "id": "g3en-002"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "想知道对方来自哪里，应该问：",
+   "a": [
+    "Where are you from?",
+    "What's this?",
+    "How are you?",
+    "How old are you?"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "Where are you from? —I'm from China.",
+   "id": "g3en-003"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Where are you from?\n—______",
+   "a": [
+    "I'm fine.",
+    "I'm nine.",
+    "I'm from China.",
+    "I'm a boy."
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "回答来自哪里用 I'm from ...",
+   "id": "g3en-004"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Amy 说 “I'm from the UK.”，她来自哪个国家？",
+   "a": [
+    "英国",
+    "加拿大",
+    "中国",
+    "美国"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "the UK 英国；the USA 美国；Canada 加拿大。",
+   "id": "g3en-005"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Who's that man?\n—______",
+   "a": [
+    "She's my mother.",
+    "It's a cat.",
+    "He's my father.",
+    "I'm Tom."
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "man 指男士，用 He 回答。",
+   "id": "g3en-006"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—How many kites do you see?\n—______",
+   "a": [
+    "It's red.",
+    "I see 12.",
+    "Yes, I do.",
+    "They are kites."
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "How many 问数量，用数字回答。",
+   "id": "g3en-007"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Where is my pencil box?\n—______",
+   "a": [
+    "Yes, it is.",
+    "I have a pencil box.",
+    "It's red.",
+    "It's in your desk."
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "Where 问地点，回答 It's in/on/under ...",
+   "id": "g3en-008"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Do you like pears?\n—______",
+   "a": [
+    "Yes, it is.",
+    "Yes, I do.",
+    "No, I'm not.",
+    "Yes, I am."
+   ],
+   "k": 1,
+   "difficulty": 2,
+   "tip": "Do you ...? 用 Yes, I do. / No, I don't. 回答。",
+   "id": "g3en-009"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "你想要一些水，应该说：",
+   "a": [
+    "Here you are.",
+    "I like water.",
+    "Have some water.",
+    "I'd like some water."
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "I'd like ... 表示「我想要……」。",
+   "id": "g3en-010"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "别人对你说 “Happy birthday!”，你应该回答：",
+   "a": [
+    "I'm fine.",
+    "Happy birthday!",
+    "You're welcome.",
+    "Thank you!"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "收到祝福说 Thank you!",
+   "id": "g3en-011"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "别人说 “Nice to meet you.”，你应该回答：",
+   "a": [
+    "Nice to meet you, too.",
+    "I'm Sarah.",
+    "Goodbye.",
+    "I'm fine, thank you."
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "回应 Nice to meet you 时加上 too。",
+   "id": "g3en-012"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—How are you?\n—______",
+   "a": [
+    "Nice to meet you.",
+    "Fine, thank you.",
+    "I'm ten.",
+    "I'm Mike."
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "How are you? 问身体状况。",
+   "id": "g3en-013"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "字母表中，字母 Ff 后面紧跟的是哪个字母？",
+   "a": [
+    "Ee",
+    "Gg",
+    "Hh",
+    "Jj"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "… E F G H …",
+   "id": "g3en-014"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "下列哪一组大小写字母对应正确？",
+   "a": [
+    "B — d",
+    "N — m",
+    "Q — p",
+    "G — g"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "Q 对应 q，B 对应 b，N 对应 n。",
+   "id": "g3en-015"
+  },
+  {
+   "type": "text",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "写出字母 d 的大写字母。",
+   "answers": [
+    "D"
+   ],
+   "difficulty": 1,
+   "tip": "d 的大写是 D。",
+   "id": "g3en-016"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“PE” 指的是什么课？",
+   "a": [
+    "音乐课",
+    "美术课",
+    "体育课",
+    "数学课"
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "PE = Physical Education 体育。",
+   "id": "g3en-017"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“CCTV” 指的是？",
+   "a": [
+    "英国广播公司",
+    "中国国际航空",
+    "美国",
+    "中国中央电视台"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "CCTV = China Central Television。",
+   "id": "g3en-018"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Look at the elephant. It has a long ______.",
+   "a": [
+    "nose",
+    "ear",
+    "mouth",
+    "eye"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "大象有长长的鼻子：It has a long nose.",
+   "id": "g3en-019"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "I see a giraffe. It's so ______!",
+   "a": [
+    "short",
+    "tall",
+    "small",
+    "fat"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "长颈鹿很高：tall。",
+   "id": "g3en-020"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“big” 的反义词是？",
+   "a": [
+    "tall",
+    "long",
+    "small",
+    "fat"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "big 大的 ↔ small 小的。",
+   "id": "g3en-021"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“fat” 的反义词是？",
+   "a": [
+    "long",
+    "short",
+    "big",
+    "thin"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "fat 胖的 ↔ thin 瘦的。",
+   "id": "g3en-022"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "This is ______ friend, Amy.",
+   "a": [
+    "he",
+    "me",
+    "I",
+    "my"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "形容词性物主代词 my 放在名词前：my friend。",
+   "id": "g3en-023"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "______ is my mother.",
+   "a": [
+    "I",
+    "She",
+    "It",
+    "He"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "指女性用 She。",
+   "id": "g3en-024"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "How many crayons ______ you have?",
+   "a": [
+    "do",
+    "does",
+    "is",
+    "are"
+   ],
+   "k": 0,
+   "difficulty": 3,
+   "tip": "主语是 you，助动词用 do。",
+   "id": "g3en-025"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "red（红）+ yellow（黄）混合后是什么颜色？",
+   "a": [
+    "orange",
+    "brown",
+    "green",
+    "purple"
+   ],
+   "k": 0,
+   "difficulty": 2,
+   "tip": "红色和黄色调在一起是橙色 orange。",
+   "id": "g3en-026"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“Touch your nose.” 的意思是？",
+   "a": [
+    "闭上你的眼睛。",
+    "张开你的嘴。",
+    "拍拍你的手。",
+    "摸摸你的鼻子。"
+   ],
+   "k": 3,
+   "difficulty": 1,
+   "tip": "touch 摸，nose 鼻子。",
+   "id": "g3en-027"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“Clap your hands.” 的意思是？",
+   "a": [
+    "挥挥你的手。",
+    "拍拍你的手。",
+    "摸摸你的头。",
+    "跺跺你的脚。"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "clap 拍手，hand 手。",
+   "id": "g3en-028"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "Miss White 是一位：",
+   "a": [
+    "女老师",
+    "爸爸",
+    "男老师",
+    "男同学"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "Miss 用于称呼女士；Mr 用于称呼男士。",
+   "id": "g3en-029"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "选出不同类的一项：",
+   "a": [
+    "bear",
+    "pear",
+    "apple",
+    "peach"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "apple、pear、peach 都是水果，bear 是熊。",
+   "id": "g3en-030"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "选出不同类的一项：",
+   "a": [
+    "blue",
+    "red",
+    "dog",
+    "green"
+   ],
+   "k": 2,
+   "difficulty": 1,
+   "tip": "red、blue、green 是颜色，dog 是动物。",
+   "id": "g3en-031"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“The ball is under the chair.” 中球在哪里？",
+   "a": [
+    "在椅子旁边",
+    "在椅子里面",
+    "在椅子上面",
+    "在椅子下面"
+   ],
+   "k": 3,
+   "difficulty": 2,
+   "tip": "under 在……下面；on 在……上面；in 在……里面。",
+   "id": "g3en-032"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "「书在桌子上。」用英语怎么说？",
+   "a": [
+    "The book is in the desk.",
+    "The book is under the desk.",
+    "The book is on the desk.",
+    "The desk is on the book."
+   ],
+   "k": 2,
+   "difficulty": 2,
+   "tip": "on 在……上面。",
+   "id": "g3en-033"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Have some fish.\n—______",
+   "a": [
+    "Me too.",
+    "Thank you.",
+    "I'm fine.",
+    "You're welcome."
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "别人请你吃东西，可以说 Thank you. 或 No, thanks.",
+   "id": "g3en-034"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "—Let's go to school!\n—______",
+   "a": [
+    "I'm from China.",
+    "OK!",
+    "Goodbye!",
+    "Thank you!"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "回应 Let's ... 的建议常说 OK! / Great!",
+   "id": "g3en-035"
+  },
+  {
+   "type": "single",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“grandma” 的意思是？",
+   "a": [
+    "妈妈",
+    "奶奶 / 外婆",
+    "姐姐",
+    "爷爷 / 外公"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "grandma 奶奶/外婆；grandpa 爷爷/外公。",
+   "id": "g3en-036"
+  },
+  {
+   "type": "text",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“eleven” 是数字几？（填阿拉伯数字）",
+   "answers": [
+    "11"
+   ],
+   "difficulty": 2,
+   "tip": "eleven = 11，twelve = 12。",
+   "id": "g3en-037"
+  },
+  {
+   "type": "text",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“fifteen” 是数字几？（填阿拉伯数字）",
+   "answers": [
+    "15"
+   ],
+   "difficulty": 2,
+   "tip": "fifteen = 15。",
+   "id": "g3en-038"
+  },
+  {
+   "type": "text",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "补全单词：b _ g（大的），横线处应填哪个字母？",
+   "answers": [
+    "i"
+   ],
+   "difficulty": 1,
+   "tip": "big 大的。",
+   "id": "g3en-039"
+  },
+  {
+   "type": "boolean",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“I'm from China.” 的意思是「我来自中国」。",
+   "a": [
+    "正确",
+    "错误"
+   ],
+   "k": 0,
+   "difficulty": 1,
+   "tip": "be from 来自。",
+   "id": "g3en-040"
+  },
+  {
+   "type": "boolean",
+   "subject": "英语",
+   "level": "三年级",
+   "q": "“boy” 的意思是「女孩」。",
+   "a": [
+    "正确",
+    "错误"
+   ],
+   "k": 1,
+   "difficulty": 1,
+   "tip": "boy 男孩；girl 女孩。",
+   "id": "g3en-041"
+  }
+ ]
+}

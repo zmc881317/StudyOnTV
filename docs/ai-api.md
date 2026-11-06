@@ -50,6 +50,8 @@ Body: {"passphrase":"<管理密码>"}
 | `modelAnswer` | 主观题参考答案 |
 | `rubric` | 主观题评分标准 |
 | `id` | 可选；再次提交同一 ID 可修改题目 |
+| `subject` | 学科，如「数学」「物理」 |
+| `level` | 年级 / 学段，决定哪类孩子能抽到：含「七年级、八年级、九年级、初一~初三、初中」→ 初中；含「高中」→ 两个学段都不抽；为空或「通用」→ 小学和初中共用；其他（如「三年级」「小学」）→ 小学 |
 
 导入整批校验，任何一道题格式错误都会回滚本批，避免部分导入。可以自由编写学科、生活、安全等主题题库；奖励由家长规则设置，题库文件不能执行脚本或直接发放时长。
 
@@ -63,9 +65,11 @@ Body: {"passphrase":"<管理密码>"}
 |---|---|---|
 | GET | `/api/hello` | 设备基本信息，唯一免验证的数据接口 |
 | POST | `/api/auth` | 用管理密码换取令牌 |
-| GET | `/api/state` | 规则、当天统计、已解锁时长和加练池 |
+| GET | `/api/state` | 规则、当天统计、已解锁时长、加练池和 `learnerStage`（当前学段） |
 | PUT | `/api/config` | 保存规则 |
-| GET | `/api/questions?limit=5000` | 读取题库 |
+| GET | `/api/questions?limit=5000` | 读取题库；可加 `stage=primary` / `stage=junior` 只看某学段可用的题 |
+| GET | `/api/stage` | 当前学段 `{"stage":"junior","label":"初中","chosen":true,"counts":{...}}` |
+| PUT | `/api/stage` | 切换学段，正文 `{"stage":"primary"}` 或 `{"stage":"junior"}`；需管理密码令牌，设备令牌只能在尚未选择时设置 |
 | POST | `/api/questions` | 新增或修改单题，或批量导入 `items` |
 | DELETE | `/api/questions/{id}` | 删除题目 |
 | GET | `/api/history?days=7` | 实际使用时长与答题统计 |
